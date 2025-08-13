@@ -30,6 +30,15 @@ def main():
         print(f"📊 Raw response received: {type(rates_data)}")
         print(f"🔑 Response keys: {list(rates_data.keys()) if isinstance(rates_data, dict) else 'Not a dict'}")
         
+        # Debug detailed response
+        print(f"💰 ton_per_star: {rates_data.get('ton_per_star', 'N/A')}")
+        print(f"💵 usdt_per_ton: {rates_data.get('usdt_per_ton', 'N/A')}")  
+        print(f"⭐ usdt_per_star: {rates_data.get('usdt_per_star', 'N/A')}")
+        print(f"❌ errors: {rates_data.get('errors', 'N/A')}")
+        
+        if 'binance_raw' in rates_data:
+            print(f"🏦 binance_raw: {rates_data['binance_raw']}")
+        
         if rates_data.get('usdt_per_star', 0) <= 0:
             print("ERROR: Invalid exchange rate data")
             print("Errors:", rates_data.get('errors', []))

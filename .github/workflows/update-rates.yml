@@ -36,10 +36,17 @@ jobs:
         
     - name: Debug API connectivity
       run: |
-        echo "=== Testing API connectivity ==="
-        curl -v "https://api.binance.com/api/v3/ticker/price?symbol=TONUSDT"
+        echo "=== Testing Binance API ==="
+        echo "Raw curl response:"
+        curl -s "https://api.binance.com/api/v3/ticker/price?symbol=TONUSDT"
+        echo -e "\nWith headers:"
+        curl -I "https://api.binance.com/api/v3/ticker/price?symbol=TONUSDT"
+        
         echo -e "\n=== Testing TON API ==="
-        curl -v "https://tonapi.io/v2/accounts/EQCFJEP4WZ_mpdo0_kMEmsTgvrMHG7K_tWY16pQhKHwoOoy2/events?limit=10"
+        echo "Raw curl response:"
+        curl -s "https://tonapi.io/v2/accounts/EQCFJEP4WZ_mpdo0_kMEmsTgvrMHG7K_tWY16pQhKHwoOoy2/events?limit=10" | head -200
+        echo -e "\nWith headers:"
+        curl -I "https://tonapi.io/v2/accounts/EQCFJEP4WZ_mpdo0_kMEmsTgvrMHG7K_tWY16pQhKHwoOoy2/events?limit=10"
         
     - name: Generate rates data
       run: |
