@@ -16,11 +16,19 @@ from telegram_stars_rates.analyzer import get_stars_rate
 def main():
     """Generate rates.json file for GitHub Pages."""
     try:
+        print("🔍 Starting rate generation...")
+        print(f"📁 Current working directory: {os.getcwd()}")
+        print(f"📄 Script path: {Path(__file__).parent.parent}")
+        
         # Get exchange rates with raw data
+        print("🌐 Calling get_stars_rate API...")
         rates_data = get_stars_rate(
             limit=100,  # More transactions for better accuracy
             include_raw=True
         )
+        
+        print(f"📊 Raw response received: {type(rates_data)}")
+        print(f"🔑 Response keys: {list(rates_data.keys()) if isinstance(rates_data, dict) else 'Not a dict'}")
         
         if rates_data.get('usdt_per_star', 0) <= 0:
             print("ERROR: Invalid exchange rate data")

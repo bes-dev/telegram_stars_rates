@@ -34,9 +34,22 @@ jobs:
         python -m pip install --upgrade pip
         pip install requests
         
+    - name: Debug API connectivity
+      run: |
+        echo "=== Testing API connectivity ==="
+        curl -v "https://api.binance.com/api/v3/ticker/price?symbol=TONUSDT"
+        echo -e "\n=== Testing TON API ==="
+        curl -v "https://tonapi.io/v2/accounts/EQCFJEP4WZ_mpdo0_kMEmsTgvrMHG7K_tWY16pQhKHwoOoy2/events?limit=10"
+        
     - name: Generate rates data
       run: |
-        python scripts/generate_rates.py
+        echo "=== Python environment debug ==="
+        python --version
+        python -c "import requests; print(f'requests version: {requests.__version__}')"
+        python -c "import sys; print(f'Python path: {sys.path}')"
+        
+        echo "=== Running script with verbose output ==="
+        python -u scripts/generate_rates.py
         
     - name: List generated files
       run: |
