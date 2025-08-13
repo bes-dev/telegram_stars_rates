@@ -62,6 +62,32 @@ Visit the GitHub Pages site for an interactive converter:
 - Exchange rate statistics
 - Mobile-friendly interface
 
+### Public API Endpoints
+
+Access live exchange rates via public JSON APIs:
+
+**Simple API (recommended):**
+```
+https://username.github.io/telegram_stars_rates/api.json
+```
+
+**Detailed API (with transaction data):**
+```
+https://username.github.io/telegram_stars_rates/rates.json
+```
+
+**Example Response (api.json):**
+```json
+{
+  "usdt_per_star": 0.015015,
+  "ton_per_star": 0.004354,
+  "usdt_per_ton": 3.449,
+  "timestamp": "2025-08-13T12:59:34Z",
+  "transactions_analyzed": 100,
+  "source": "fragment_blockchain_analysis"
+}
+```
+
 
 ## 🔧 How It Works
 

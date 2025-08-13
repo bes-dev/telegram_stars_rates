@@ -48,12 +48,29 @@ def main():
         github_pages_dir = Path(__file__).parent.parent / 'github_pages'
         github_pages_dir.mkdir(exist_ok=True)
         
-        # Write rates.json
+        # Write rates.json (full data)
         rates_file = github_pages_dir / 'rates.json'
         with open(rates_file, 'w', encoding='utf-8') as f:
             json.dump(rates_data, f, indent=2, ensure_ascii=False)
         
+        # Write api.json (simplified for API consumers)
+        api_data = {
+            "usdt_per_star": rates_data["usdt_per_star"],
+            "ton_per_star": rates_data["ton_per_star"], 
+            "usdt_per_ton": rates_data["usdt_per_ton"],
+            "timestamp": rates_data["timestamp"],
+            "transactions_analyzed": rates_data.get("fragment_raw", {}).get("transactions_count", 0),
+            "source": "fragment_blockchain_analysis",
+            "rate_source": rates_data.get("binance_raw", {}).get("source", "unknown"),
+            "last_updated": rates_data["timestamp"]
+        }
+        
+        api_file = github_pages_dir / 'api.json'
+        with open(api_file, 'w', encoding='utf-8') as f:
+            json.dump(api_data, f, indent=2, ensure_ascii=False)
+        
         print(f"✅ Generated {rates_file}")
+        print(f"✅ Generated {api_file}")
         print(f"💰 Current rate: 1 Star = ${rates_data['usdt_per_star']:.6f} USDT")
         
         if rates_data.get('errors'):
