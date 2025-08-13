@@ -14,12 +14,36 @@ def get_timestamp() -> str:
     """Get current UTC timestamp in ISO format."""
     return datetime.now(timezone.utc).isoformat()
 
+def ton_to_usdt_coingecko() -> Dict[str, Any]:
+    """Get TON → USDT exchange rate from CoinGecko API (backup)."""
+    try:
+        response = requests.get(
+            "https://api.coingecko.com/api/v3/simple/price?ids=the-open-network&vs_currencies=usd",
+            timeout=10,
+            headers={'User-Agent': 'telegram-stars-rates/1.0'}
+        )
+        response.raise_for_status()
+        data = response.json()
+        
+        if "the-open-network" in data and "usd" in data["the-open-network"]:
+            price = float(data["the-open-network"]["usd"])
+            if price > 0:
+                return {
+                    "usdt_per_ton": price,
+                    "last_updated": get_timestamp(),
+                    "source": "coingecko"
+                }
+    except:
+        pass
+    return {}
+
 def ton_to_usdt_binance() -> Dict[str, Any]:
     """Get TON → USDT exchange rate from Binance API."""
     try:
         response = requests.get(
             "https://api.binance.com/api/v3/ticker/price?symbol=TONUSDT",
-            timeout=10
+            timeout=10,
+            headers={'User-Agent': 'telegram-stars-rates/1.0'}
         )
         response.raise_for_status()
         data = response.json()
@@ -32,7 +56,9 @@ def ton_to_usdt_binance() -> Dict[str, Any]:
             }
     except:
         pass
-    return {}
+    
+    # Fallback to CoinGecko if Binance fails
+    return ton_to_usdt_coingecko()
 
 def parse_fragment_transaction(transaction: Dict[str, Any]) -> Optional[Dict[str, Any]]:
     """Parse Fragment Stars → TON transaction."""
@@ -73,7 +99,9 @@ def get_fragment_events(
     if not api_key:
         time.sleep(rate_limit_delay)
     
-    headers = {"Authorization": f"Bearer {api_key}"} if api_key else {}
+    headers = {"User-Agent": "telegram-stars-rates/1.0"}
+    if api_key:
+        headers["Authorization"] = f"Bearer {api_key}"
     
     response = requests.get(
         f"https://tonapi.io/v2/accounts/{fragment_address}/events",
