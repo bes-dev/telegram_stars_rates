@@ -90,7 +90,11 @@ header p {
     box-shadow: 0 8px 32px rgba(0,0,0,0.1);
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 20px;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
 }
 
 .converter-section {
@@ -98,6 +102,7 @@ header p {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    min-width: 0; /* Allow flex items to shrink below their content size */
 }
 
 .converter-section label {
@@ -111,6 +116,9 @@ header p {
     border-radius: 12px;
     font-size: 1.1em;
     transition: border-color 0.3s ease;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
 }
 
 .converter-section input:focus {
@@ -130,6 +138,8 @@ header p {
     color: #0088cc;
     font-weight: bold;
     flex-shrink: 0;
+    min-width: 40px;
+    text-align: center;
 }
 
 .stats {
@@ -185,15 +195,31 @@ footer p {
     .converter {
         flex-direction: column;
         gap: 15px;
+        padding: 20px;
+    }
+    
+    .converter-section {
+        width: 100%;
+    }
+    
+    .converter-section input {
+        font-size: 1em;
+        padding: 12px;
     }
     
     .converter-arrow {
         transform: rotate(90deg);
+        font-size: 1.5em;
     }
     
     .stats {
         flex-direction: column;
         gap: 20px;
+    }
+    
+    .rate-info {
+        flex-direction: column;
+        gap: 15px;
     }
     
     header h1 {
@@ -202,5 +228,17 @@ footer p {
     
     .rate-value {
         font-size: 2.5em;
+    }
+}
+
+@media (max-width: 480px) {
+    .converter {
+        padding: 15px;
+        gap: 10px;
+    }
+    
+    .converter-section input {
+        padding: 10px;
+        font-size: 0.9em;
     }
 }
