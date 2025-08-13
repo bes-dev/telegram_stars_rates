@@ -1,0 +1,8 @@
+# GitHub repository settings
+repository:
+  # Pages settings
+  pages:
+    source:
+      branch: master
+      path: /github_pages
+    build_type: legacy
