@@ -1,12 +1,15 @@
 name: Update Exchange Rates
 
 on:
+  push:
+    branches: [ master, main ]  # Trigger on push
   schedule:
     - cron: '0 12 * * *'  # Daily at 12:00 UTC
   workflow_dispatch:  # Allow manual trigger
 
+# This workflow will be used for GitHub Pages deployment
 permissions:
-  contents: write
+  contents: read
   pages: write
   id-token: write
 
@@ -34,6 +37,14 @@ jobs:
     - name: Generate rates data
       run: |
         python scripts/generate_rates.py
+        
+    - name: List generated files
+      run: |
+        echo "Contents of github_pages directory:"
+        ls -la github_pages/
+        
+    - name: Setup Pages
+      uses: actions/configure-pages@v4
         
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3

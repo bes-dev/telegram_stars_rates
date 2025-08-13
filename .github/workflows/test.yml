@@ -1,0 +1,26 @@
+name: Test Workflow
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+      
+    - name: List files
+      run: |
+        echo "Repository contents:"
+        ls -la
+        echo "Python files in telegram_stars_rates:"
+        ls -la telegram_stars_rates/
+        echo "Scripts directory:"
+        ls -la scripts/
+        
+    - name: Test Python
+      run: |
+        python --version
+        python -c "print('Python is working!')"
