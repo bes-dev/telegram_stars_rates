@@ -89,20 +89,21 @@ header p {
     margin-bottom: 30px;
     box-shadow: 0 8px 32px rgba(0,0,0,0.1);
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: stretch;
+    justify-content: space-between;
     gap: 20px;
     width: 100%;
     max-width: 100%;
-    overflow: hidden;
+    box-sizing: border-box;
 }
 
 .converter-section {
-    flex: 1;
+    flex: 1 1 40%; /* grow, shrink, basis */
     display: flex;
     flex-direction: column;
     gap: 10px;
-    min-width: 0; /* Allow flex items to shrink below their content size */
+    min-width: 150px;
+    max-width: 50%;
 }
 
 .converter-section label {
@@ -137,9 +138,12 @@ header p {
     font-size: 2em;
     color: #0088cc;
     font-weight: bold;
-    flex-shrink: 0;
-    min-width: 40px;
+    flex: 0 0 auto;
+    width: 60px;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .stats {
@@ -196,10 +200,13 @@ footer p {
         flex-direction: column;
         gap: 15px;
         padding: 20px;
+        align-items: center;
     }
     
     .converter-section {
         width: 100%;
+        max-width: 100%;
+        min-width: auto;
     }
     
     .converter-section input {

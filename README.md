@@ -9,7 +9,7 @@
 ## 🚀 Features
 
 - **Real-time Exchange Rates**: Get current Stars → USDT rates from Fragment blockchain
-- **Minimalistic Library**: Simple Python API with minimal dependencies  
+- **Minimalistic Library**: Simple Python API with minimal dependencies
 - **CLI Tool**: Command-line interface for quick rate checks
 - **Web Converter**: GitHub Pages hosted converter with daily updates
 - **Fragment Integration**: Direct blockchain transaction parsing
@@ -68,12 +68,12 @@ Access live exchange rates via public JSON APIs:
 
 **Simple API (recommended):**
 ```
-https://username.github.io/telegram_stars_rates/api.json
+https://bes-dev.github.io/telegram_stars_rates/api.json
 ```
 
 **Detailed API (with transaction data):**
 ```
-https://username.github.io/telegram_stars_rates/rates.json
+https://bes-dev.github.io/telegram_stars_rates/rates.json
 ```
 
 **Example Response (api.json):**
@@ -92,7 +92,7 @@ https://username.github.io/telegram_stars_rates/rates.json
 ## 🔧 How It Works
 
 1. **Fragment Analysis**: Fetches real transactions from Fragment's TON address
-2. **Rate Calculation**: Parses "X Telegram Stars" → TON transfers  
+2. **Rate Calculation**: Parses "X Telegram Stars" → TON transfers
 3. **USDT Conversion**: Gets TON/USDT rate from Binance API
 4. **Final Rate**: Calculates Stars → USDT via Stars → TON → USDT
 
@@ -102,14 +102,14 @@ https://username.github.io/telegram_stars_rates/rates.json
 
 **Parameters:**
 - `limit` (int): Number of transactions to analyze (default: 50)
-- `include_raw` (bool): Include raw transaction data (default: False)  
+- `include_raw` (bool): Include raw transaction data (default: False)
 - `api_key` (str): TON API key for higher rate limits
 
 **Returns:**
 ```python
 {
     "usdt_per_star": 0.012345,      # Main exchange rate
-    "ton_per_star": 0.002500,       # Stars → TON rate  
+    "ton_per_star": 0.002500,       # Stars → TON rate
     "usdt_per_ton": 4.938000,       # TON → USDT rate
     "timestamp": "2024-01-01T12:00:00Z",
     "errors": []                     # Any warnings/errors
@@ -148,7 +148,7 @@ Apache 2.0 License - see LICENSE file for details.
 ## 🔗 Links
 
 - **Fragment**: https://fragment.com
-- **TON API**: https://tonapi.io  
+- **TON API**: https://tonapi.io
 - **Binance API**: https://binance.com/api
 
 ## 🤝 Contributing
