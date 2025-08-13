@@ -2,7 +2,7 @@
 
 [![PyPI version](https://badge.fury.io/py/telegram-stars-rates.svg)](https://badge.fury.io/py/telegram-stars-rates)
 [![Python versions](https://img.shields.io/pypi/pyversions/telegram-stars-rates.svg)](https://pypi.org/project/telegram-stars-rates/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 **Real-time Telegram Stars to USDT exchange rates via Fragment blockchain analysis**
 
@@ -117,7 +117,7 @@ python scripts/generate_rates.py
 
 ## 📄 License
 
-MIT License - see LICENSE file for details.
+Apache 2.0 License - see LICENSE file for details.
 
 ## 🔗 Links
 
@@ -125,33 +125,22 @@ MIT License - see LICENSE file for details.
 - **TON API**: https://tonapi.io  
 - **Binance API**: https://binance.com/api
 
-## 🤝 Вклад в проект
+## 🤝 Contributing
 
-Мы приветствуем вклад в развитие проекта! 
+We welcome contributions to this project!
 
-1. Форкните репозиторий
-2. Создайте ветку для вашей функции (`git checkout -b feature/amazing-feature`)
-3. Сделайте коммит (`git commit -m 'Add amazing feature'`)
-4. Пушьте в ветку (`git push origin feature/amazing-feature`)
-5. Откройте Pull Request
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-## 📜 Лицензия
+## 📊 Statistics
 
-Этот проект распространяется под лицензией MIT. Подробности в файле [LICENSE](LICENSE).
-
-## 🔗 Ссылки
-
-- **PyPI**: https://pypi.org/project/fragment-stars-analyzer/
-- **GitHub**: https://github.com/fragment-stars/analyzer
-- **Документация**: https://fragment-stars.readthedocs.io/
-- **Баг-репорты**: https://github.com/fragment-stars/analyzer/issues
-
-## 📊 Статистика
-
-![GitHub stars](https://img.shields.io/github/stars/fragment-stars/analyzer)
-![GitHub forks](https://img.shields.io/github/forks/fragment-stars/analyzer)
-![PyPI downloads](https://img.shields.io/pypi/dm/fragment-stars-analyzer)
+![GitHub stars](https://img.shields.io/github/stars/telegram-stars/rates)
+![GitHub forks](https://img.shields.io/github/forks/telegram-stars/rates)
+![PyPI downloads](https://img.shields.io/pypi/dm/telegram-stars-rates)
 
 ---
 
-**💎 Профессиональный анализ Telegram Stars курсов для Python разработчиков! 💎**
+**💎 Professional Telegram Stars exchange rate analysis for Python developers! 💎**
