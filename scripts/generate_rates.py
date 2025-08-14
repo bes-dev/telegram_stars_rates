@@ -69,8 +69,41 @@ def main():
         with open(api_file, 'w', encoding='utf-8') as f:
             json.dump(api_data, f, indent=2, ensure_ascii=False)
         
+        # Update historical data
+        history_file = github_pages_dir / 'history.json'
+        history_data = []
+        
+        # Load existing history
+        if history_file.exists():
+            try:
+                with open(history_file, 'r', encoding='utf-8') as f:
+                    history_data = json.load(f)
+            except:
+                history_data = []
+        
+        # Add current data point (keep only essential fields for chart)
+        current_point = {
+            "date": rates_data["timestamp"][:10],  # YYYY-MM-DD format
+            "timestamp": rates_data["timestamp"],
+            "usdt_per_star": rates_data["usdt_per_star"],
+            "ton_per_star": rates_data["ton_per_star"],
+            "usdt_per_ton": rates_data["usdt_per_ton"]
+        }
+        
+        # Avoid duplicates (same date)
+        history_data = [h for h in history_data if h.get("date") != current_point["date"]]
+        history_data.append(current_point)
+        
+        # Keep last 90 days only
+        history_data = sorted(history_data, key=lambda x: x["date"])[-90:]
+        
+        # Save updated history
+        with open(history_file, 'w', encoding='utf-8') as f:
+            json.dump(history_data, f, indent=2, ensure_ascii=False)
+        
         print(f"✅ Generated {rates_file}")
         print(f"✅ Generated {api_file}")
+        print(f"✅ Updated {history_file} ({len(history_data)} data points)")
         print(f"💰 Current rate: 1 Star = ${rates_data['usdt_per_star']:.6f} USDT")
         
         if rates_data.get('errors'):
