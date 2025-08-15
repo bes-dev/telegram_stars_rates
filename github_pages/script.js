@@ -122,16 +122,45 @@ class StarsConverter {
 
     createChart() {
         if (!this.historyData || this.historyData.length === 0) {
-            // Hide chart section if no data
+            // Show message instead of hiding completely
             const chartSection = document.querySelector('.chart-section');
-            if (chartSection) {
-                chartSection.style.display = 'none';
+            const chartContainer = document.querySelector('.chart-container');
+            if (chartSection && chartContainer) {
+                chartContainer.innerHTML = `
+                    <div style="
+                        display: flex; 
+                        align-items: center; 
+                        justify-content: center; 
+                        height: 200px; 
+                        color: #64748b; 
+                        text-align: center;
+                        flex-direction: column;
+                        gap: 8px;
+                    ">
+                        <div style="font-size: 1.5rem;">📊</div>
+                        <div>Historical data will appear here after daily updates</div>
+                        <div style="font-size: 0.875rem;">Check back tomorrow for rate trends</div>
+                    </div>
+                `;
             }
             return;
         }
 
+        // Show chart section
+        const chartSection = document.querySelector('.chart-section');
+        if (chartSection) {
+            chartSection.style.display = 'block';
+        }
+
         const ctx = document.getElementById('rateChart');
         if (!ctx) return;
+
+        // Update chart title with actual data range
+        const chartTitle = document.querySelector('.chart-section h3');
+        if (chartTitle) {
+            const daysCount = this.historyData.length;
+            chartTitle.textContent = `📈 Rate History (${daysCount} day${daysCount === 1 ? '' : 's'})`;
+        }
 
         // Prepare data for chart
         const labels = this.historyData.map(item => {

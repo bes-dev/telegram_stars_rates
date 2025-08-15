@@ -1,51 +1,9 @@
 [
   {
-    "date": "2024-12-20",
-    "timestamp": "2024-12-20T12:00:00.000Z",
-    "usdt_per_star": 0.014200,
-    "ton_per_star": 0.004100,
-    "usdt_per_ton": 3.463
-  },
-  {
-    "date": "2024-12-21",
-    "timestamp": "2024-12-21T12:00:00.000Z", 
-    "usdt_per_star": 0.014500,
-    "ton_per_star": 0.004150,
-    "usdt_per_ton": 3.494
-  },
-  {
-    "date": "2024-12-22",
-    "timestamp": "2024-12-22T12:00:00.000Z",
-    "usdt_per_star": 0.014800,
-    "ton_per_star": 0.004200,
-    "usdt_per_ton": 3.524
-  },
-  {
-    "date": "2025-01-10",
-    "timestamp": "2025-01-10T12:00:00.000Z",
-    "usdt_per_star": 0.015200,
-    "ton_per_star": 0.004300,
-    "usdt_per_ton": 3.535
-  },
-  {
-    "date": "2025-01-11",
-    "timestamp": "2025-01-11T12:00:00.000Z",
-    "usdt_per_star": 0.015100,
-    "ton_per_star": 0.004280,
-    "usdt_per_ton": 3.528
-  },
-  {
-    "date": "2025-01-12",
-    "timestamp": "2025-01-12T12:00:00.000Z",
-    "usdt_per_star": 0.015300,
-    "ton_per_star": 0.004350,
-    "usdt_per_ton": 3.517
-  },
-  {
-    "date": "2025-01-13",
-    "timestamp": "2025-01-13T12:00:00.000Z",
-    "usdt_per_star": 0.015015,
-    "ton_per_star": 0.004354,
-    "usdt_per_ton": 3.449
+    "date": "2025-08-15",
+    "timestamp": "2025-08-15T13:38:19.259436+00:00",
+    "usdt_per_star": 0.014915,
+    "ton_per_star": 0.004281,
+    "usdt_per_ton": 3.484
   }
 ]

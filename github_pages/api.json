@@ -1,10 +1,10 @@
 {
-  "usdt_per_star": 0.015015724825439126,
-  "ton_per_star": 0.004353645933731263,
-  "usdt_per_ton": 3.449,
-  "timestamp": "2025-08-13T12:59:34.737242+00:00",
+  "usdt_per_star": 0.01491465022409948,
+  "ton_per_star": 0.004280898456974593,
+  "usdt_per_ton": 3.484,
+  "timestamp": "2025-08-15T13:38:19.259436+00:00",
   "transactions_analyzed": 100,
   "source": "fragment_blockchain_analysis",
   "rate_source": "binance",
-  "last_updated": "2025-08-13T12:59:34.737242+00:00"
+  "last_updated": "2025-08-15T13:38:19.259436+00:00"
 }

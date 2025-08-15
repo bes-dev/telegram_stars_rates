@@ -78,24 +78,34 @@ def main():
             try:
                 with open(history_file, 'r', encoding='utf-8') as f:
                     history_data = json.load(f)
-            except:
+                    # Validate existing data structure
+                    if not isinstance(history_data, list):
+                        history_data = []
+            except Exception as e:
+                print(f"⚠️ Could not load existing history: {e}")
                 history_data = []
         
-        # Add current data point (keep only essential fields for chart)
-        current_point = {
-            "date": rates_data["timestamp"][:10],  # YYYY-MM-DD format
-            "timestamp": rates_data["timestamp"],
-            "usdt_per_star": rates_data["usdt_per_star"],
-            "ton_per_star": rates_data["ton_per_star"],
-            "usdt_per_ton": rates_data["usdt_per_ton"]
-        }
-        
-        # Avoid duplicates (same date)
-        history_data = [h for h in history_data if h.get("date") != current_point["date"]]
-        history_data.append(current_point)
-        
-        # Keep last 90 days only
-        history_data = sorted(history_data, key=lambda x: x["date"])[-90:]
+        # Add current data point (only if we have valid rates)
+        if rates_data["usdt_per_star"] > 0:
+            current_point = {
+                "date": rates_data["timestamp"][:10],  # YYYY-MM-DD format
+                "timestamp": rates_data["timestamp"],
+                "usdt_per_star": round(rates_data["usdt_per_star"], 6),
+                "ton_per_star": round(rates_data["ton_per_star"], 6),
+                "usdt_per_ton": round(rates_data["usdt_per_ton"], 3)
+            }
+            
+            # Remove any existing entry for today (avoid duplicates)
+            today = current_point["date"]
+            history_data = [h for h in history_data if h.get("date") != today]
+            
+            # Add new point
+            history_data.append(current_point)
+            
+            # Sort by date and keep only last 90 days
+            history_data = sorted(history_data, key=lambda x: x["date"])
+            if len(history_data) > 90:
+                history_data = history_data[-90:]
         
         # Save updated history
         with open(history_file, 'w', encoding='utf-8') as f:

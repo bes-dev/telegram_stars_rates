@@ -1,822 +1,822 @@
 {
-  "ton_per_star": 0.004353645933731263,
-  "usdt_per_ton": 3.449,
-  "usdt_per_star": 0.015015724825439126,
-  "timestamp": "2025-08-13T12:59:34.737242+00:00",
+  "ton_per_star": 0.004280898456974593,
+  "usdt_per_ton": 3.484,
+  "usdt_per_star": 0.01491465022409948,
+  "timestamp": "2025-08-15T13:38:19.259436+00:00",
   "errors": [],
   "fragment_raw": {
-    "ton_per_star": 0.004353645933731263,
+    "ton_per_star": 0.004280898456974593,
     "transactions_count": 100,
-    "min_rate": 0.0043182,
-    "max_rate": 0.0043552999999999994,
-    "median_rate": 0.004354901960784314,
-    "timestamp": "2025-08-13T12:59:37.321411+00:00",
+    "min_rate": 0.0042794,
+    "max_rate": 0.004285,
+    "median_rate": 0.004281,
+    "timestamp": "2025-08-15T13:38:22.250818+00:00",
     "raw_transactions": [
       {
-        "timestamp": 1755089977,
-        "stars": 17950,
-        "ton": 78.1178,
-        "rate_per_star": 0.0043519665738161566,
-        "reference": "s8Lz2YJJw",
-        "hash": "8a1da649e520e48c5cf70e197cb0c357d597701cdfa8bad303bf41b54f361237"
+        "timestamp": 1755265098,
+        "stars": 201,
+        "ton": 0.8605,
+        "rate_per_star": 0.004281094527363184,
+        "reference": "kKNqZwhBe",
+        "hash": "99315e419f565b7140e42983c4f9e8a8062b6b31d08f66817e84ac1b03f0ae75"
       },
       {
-        "timestamp": 1755089969,
-        "stars": 193,
-        "ton": 0.8405,
-        "rate_per_star": 0.004354922279792746,
-        "reference": "MHThAM0AU",
-        "hash": "602936dcb48f5a14b988d47a8d6cac28b9d1b72a42f327df15f1c0bd57cde3ba"
+        "timestamp": 1755265091,
+        "stars": 6600,
+        "ton": 28.258,
+        "rate_per_star": 0.004281515151515152,
+        "reference": "yAUdnEXVr",
+        "hash": "ec63396467a2ca58cc9f930d1dfa8cf7d124066f8c8582fce618a669f44a38b6"
       },
       {
-        "timestamp": 1755089969,
-        "stars": 5000,
-        "ton": 21.7598,
-        "rate_per_star": 0.004351959999999999,
-        "reference": "sQNRR0Ns4",
-        "hash": "533162bb748c445339728cdff3499b7131112a6993a65efac317df9923075f50"
+        "timestamp": 1755265091,
+        "stars": 175,
+        "ton": 0.7492,
+        "rate_per_star": 0.004281142857142857,
+        "reference": "uQBBQOkGN",
+        "hash": "da8eb0045f1db24b436e174f116e4abb747998bc8850becfcc5a3daf01bfbcb5"
       },
       {
-        "timestamp": 1755089969,
-        "stars": 5000,
-        "ton": 21.7753,
-        "rate_per_star": 0.00435506,
-        "reference": "76tcYPsDk",
-        "hash": "61bdcffcb7424aad3f557843a2a0d62977cb06ddc2576eebccf46d95fcf6f1c1"
+        "timestamp": 1755265088,
+        "stars": 169,
+        "ton": 0.7235,
+        "rate_per_star": 0.004281065088757397,
+        "reference": "9W9I09ZHp",
+        "hash": "7856bd36487180d0538874767cc69c84270a1e3e30e9769ffc1b585b6575cc1c"
       },
       {
-        "timestamp": 1755089969,
-        "stars": 250,
-        "ton": 1.0879,
-        "rate_per_star": 0.004351600000000001,
-        "reference": "CzzNvc1uO",
-        "hash": "e32d28cf9ca188bb9d8ac2581807c52c7e7b3b8bb0b4555c88ce69fb040b7211"
-      },
-      {
-        "timestamp": 1755089969,
-        "stars": 250,
-        "ton": 1.0879,
-        "rate_per_star": 0.004351600000000001,
-        "reference": "VLLem2mLo",
-        "hash": "7110da2338962ce625590faddf8fb27fd5607cc48c35e2d4b01b4bc549874ad2"
-      },
-      {
-        "timestamp": 1755089969,
-        "stars": 137,
-        "ton": 0.5962,
-        "rate_per_star": 0.004351824817518248,
-        "reference": "KxhBzKT2v",
-        "hash": "d6d6b1130ce3fe3ba7e4291b418ffac8c0773a59b09c248a2596986c4e8eddf3"
-      },
-      {
-        "timestamp": 1755089966,
-        "stars": 1700,
-        "ton": 7.3983,
-        "rate_per_star": 0.004351941176470588,
-        "reference": "yXicpsykT",
-        "hash": "b17d5970d83e2811243bafa04e7f2c6f230c40a75cc0fae2c285b39da343482e"
-      },
-      {
-        "timestamp": 1755089966,
-        "stars": 500,
-        "ton": 2.1775,
-        "rate_per_star": 0.004355,
-        "reference": "xsUc8Od3O",
-        "hash": "e348f65529e9a9852a625b1fa9b824562a43e0f96a094dc3aa7533e518ea30cd"
-      },
-      {
-        "timestamp": 1755089966,
-        "stars": 270,
-        "ton": 1.175,
-        "rate_per_star": 0.004351851851851852,
-        "reference": "tC6RyBG4f",
-        "hash": "ce0fee5e1eef16b9df9fbbf833af31e7975af6891fd5a0e37b5e68b233678bb9"
-      },
-      {
-        "timestamp": 1755089964,
-        "stars": 25000,
-        "ton": 108.7992,
-        "rate_per_star": 0.004351968,
-        "reference": "odgGSnuaU",
-        "hash": "a8b3630aaf454003202e914aaa8e08ea9c3c1d34dcacc4ae630f539c7b688daf"
-      },
-      {
-        "timestamp": 1755089964,
-        "stars": 150,
-        "ton": 0.6527,
-        "rate_per_star": 0.004351333333333333,
-        "reference": "y1KHAXMlM",
-        "hash": "960d29921356084e83758b3fbcd65337e1915cf4d084dc6f0e0cd481059d8481"
-      },
-      {
-        "timestamp": 1755089964,
-        "stars": 500,
-        "ton": 2.1591,
-        "rate_per_star": 0.0043182,
-        "reference": "FSFPVN31c",
-        "hash": "32d3504313d82bf2335f87c6a07a3c9afbe591e0bc2a4140d5c9c0d2057f9cb2"
-      },
-      {
-        "timestamp": 1755089964,
+        "timestamp": 1755265085,
         "stars": 50,
-        "ton": 0.2175,
-        "rate_per_star": 0.00435,
-        "reference": "R0Q3eA933",
-        "hash": "a487bd2383cf9cd7a89e4eff5771f71cc3d6f378cca59ef75745bbd09a3d6df1"
+        "ton": 0.214,
+        "rate_per_star": 0.00428,
+        "reference": "mubbfSlR9",
+        "hash": "553264b38c2095f82b0757f4f6f812762c594cf7eccec8c5289db1297bb9d0f7"
       },
       {
-        "timestamp": 1755089961,
-        "stars": 1500,
-        "ton": 6.5279,
-        "rate_per_star": 0.004351933333333333,
-        "reference": "EXJkInz7l",
-        "hash": "b183ebf0debf2fc88aa0ad523a4237afbcfc35e3982b74c78b9d0e3e134a459f"
-      },
-      {
-        "timestamp": 1755089961,
-        "stars": 102,
-        "ton": 0.4442,
-        "rate_per_star": 0.004354901960784314,
-        "reference": "wWa4vn9cR",
-        "hash": "6c47648dc0eed61c41e533a7128cf8593a117303a5f2c38ccf6d27a3936d97d6"
-      },
-      {
-        "timestamp": 1755089961,
-        "stars": 599,
-        "ton": 2.6086,
-        "rate_per_star": 0.004354924874791319,
-        "reference": "vfQmQfJZn",
-        "hash": "eee8911ab8f71ae76e300a0471c8909d0aabf03f31f531e958224f66fa7dc49d"
-      },
-      {
-        "timestamp": 1755089958,
-        "stars": 1610,
-        "ton": 7.0116,
-        "rate_per_star": 0.004355031055900621,
-        "reference": "2u3859PiF",
-        "hash": "2da523706abf96d1c96719d560b4d726d8de547fbcc91bc5db5cf46b827f8b8a"
-      },
-      {
-        "timestamp": 1755089958,
-        "stars": 1250,
-        "ton": 5.4399,
-        "rate_per_star": 0.00435192,
-        "reference": "mLMXDrHRH",
-        "hash": "81957753de2281b0921b825280dca2f206a6e6936e0814749c466116564e6b3d"
-      },
-      {
-        "timestamp": 1755089958,
-        "stars": 50,
-        "ton": 0.2175,
-        "rate_per_star": 0.00435,
-        "reference": "B8J7Usa0Q",
-        "hash": "bdcac2f621a45efcda25a705c06bf0725606efe5165aeb8e4a5b18c079d6316c"
-      },
-      {
-        "timestamp": 1755089955,
-        "stars": 100,
-        "ton": 0.4351,
-        "rate_per_star": 0.004351,
-        "reference": "VvVZMDD8x",
-        "hash": "19e488f95e1d85e5db7e5e05ad8aae93c9c09342871a75f713ca34015343370e"
-      },
-      {
-        "timestamp": 1755089953,
-        "stars": 1300,
-        "ton": 5.6615,
-        "rate_per_star": 0.004355,
-        "reference": "ViFks5zzy",
-        "hash": "dbfb09c9b5ea8bca7948f8e6dc682091b536e9fcf1cf7d7a29529f4ffef501e5"
-      },
-      {
-        "timestamp": 1755089953,
-        "stars": 425,
-        "ton": 1.8509,
-        "rate_per_star": 0.0043550588235294115,
-        "reference": "7ufFffNSS",
-        "hash": "1747c3978fd0822114e91b265da9856e17cc90de85e12b8ca6eee7d3af5485c3"
-      },
-      {
-        "timestamp": 1755089953,
-        "stars": 375,
-        "ton": 1.6331,
-        "rate_per_star": 0.004354933333333333,
-        "reference": "0zNBkbdly",
-        "hash": "9ecc947d092d55d907c27a35459d4ceb17015b67bd20d0a664b8d04ab17ed212"
-      },
-      {
-        "timestamp": 1755089953,
-        "stars": 100,
-        "ton": 0.4355,
-        "rate_per_star": 0.004355,
-        "reference": "JbZRXESNW",
-        "hash": "4ee7b3aba7be2010d3477c77d9e030fa877d980cb78545921eac04c3009c9fd3"
-      },
-      {
-        "timestamp": 1755089951,
-        "stars": 2500,
-        "ton": 10.8876,
-        "rate_per_star": 0.00435504,
-        "reference": "3w0N3kp2l",
-        "hash": "59c7fac79a282fc7729378842ec9d9753af7b924c9f7337cae780ee843fd853a"
-      },
-      {
-        "timestamp": 1755089951,
-        "stars": 130,
-        "ton": 0.5661,
-        "rate_per_star": 0.004354615384615385,
-        "reference": "qityiCjrG",
-        "hash": "093f8b8e748d9a0f96498db4aee0ecc5a7a93c5f9137f0f6b4e5a73fca5886b1"
-      },
-      {
-        "timestamp": 1755089951,
-        "stars": 1500,
-        "ton": 6.5326,
-        "rate_per_star": 0.004355066666666667,
-        "reference": "p8Sq3u7ET",
-        "hash": "bebe232c64ca2fb4f17df2905031e32285f1bc554746ea6d4acc8e608b0e0fce"
-      },
-      {
-        "timestamp": 1755089951,
-        "stars": 200,
-        "ton": 0.871,
-        "rate_per_star": 0.004355,
-        "reference": "8AOUmNXTd",
-        "hash": "1746b3b7bdb37e10c12368e48b8d0280d394d89908a04acef867bf2f7992206c"
-      },
-      {
-        "timestamp": 1755089948,
-        "stars": 50,
-        "ton": 0.2177,
-        "rate_per_star": 0.004354,
-        "reference": "2QgouwNt6",
-        "hash": "1bde6e2e26f3986ee2588c418624501084096c58dc71cebbd9513d8235a51e09"
-      },
-      {
-        "timestamp": 1755089948,
-        "stars": 150,
-        "ton": 0.6532,
-        "rate_per_star": 0.004354666666666666,
-        "reference": "qpLyGjfku",
-        "hash": "8530890015cdff38a19f9e278a580cc9e7fb45bdfe4b8cc8b494da6530d6a17f"
-      },
-      {
-        "timestamp": 1755089948,
-        "stars": 50,
-        "ton": 0.2177,
-        "rate_per_star": 0.004354,
-        "reference": "qf7hy4tvD",
-        "hash": "7670e276201d0787db06537075671d98e8b5393b489b60a0c4e2e82d706057f9"
-      },
-      {
-        "timestamp": 1755089948,
-        "stars": 50,
-        "ton": 0.2177,
-        "rate_per_star": 0.004354,
-        "reference": "PMUEIFcQ5",
-        "hash": "6f04eb8a3e8cd69c85d82de5966e4bdd94939dab9f81ec0391d36fc4243cfe81"
-      },
-      {
-        "timestamp": 1755089948,
-        "stars": 50,
-        "ton": 0.2177,
-        "rate_per_star": 0.004354,
-        "reference": "cE0I6R5Kg",
-        "hash": "a3c17c17f4e5553ef4f913b1d812bb56c75c206e36b8e8d605f4ee127685166f"
-      },
-      {
-        "timestamp": 1755089945,
-        "stars": 7500,
-        "ton": 32.663,
-        "rate_per_star": 0.004355066666666667,
-        "reference": "2yg5n9W8A",
-        "hash": "38135d2575d5ac0bb0cb184ee6b578eb9291ccf62342a291202ed769bc8b987f"
-      },
-      {
-        "timestamp": 1755089945,
-        "stars": 1000,
-        "ton": 4.355,
-        "rate_per_star": 0.004355,
-        "reference": "zKqrTd5nw",
-        "hash": "b5f4438c61cf49dfaff15e4ff8aaf7391772f2fe58694d1d4973a4e5234130b4"
-      },
-      {
-        "timestamp": 1755089942,
-        "stars": 3400,
-        "ton": 14.8072,
-        "rate_per_star": 0.0043550588235294115,
-        "reference": "QHIBzBQcr",
-        "hash": "28435f538c1d9ccc03718b7853b1c7a62e92fed15d60cdbabd8e3b15fabc7b7c"
-      },
-      {
-        "timestamp": 1755089942,
-        "stars": 50,
-        "ton": 0.2177,
-        "rate_per_star": 0.004354,
-        "reference": "9cd2bshLl",
-        "hash": "015114743ca7c0102c670f3cf10c33e21220c8a3a23408d47243e8ff4727eff4"
-      },
-      {
-        "timestamp": 1755089942,
-        "stars": 250,
-        "ton": 1.0887,
-        "rate_per_star": 0.0043548,
-        "reference": "MKblMX4r6",
-        "hash": "42d71d802ea0eb369fd590be7d2c65df0bb6aa84a9910ad02f099470dbe1d666"
-      },
-      {
-        "timestamp": 1755089942,
-        "stars": 50,
-        "ton": 0.2177,
-        "rate_per_star": 0.004354,
-        "reference": "KUNwfwchJ",
-        "hash": "152342e98ba849e2b389de2df8c87f2d9afc7ef90dc6df72aae94191ca778221"
-      },
-      {
-        "timestamp": 1755089942,
-        "stars": 124150,
-        "ton": 540.6825,
-        "rate_per_star": 0.004355074506645187,
-        "reference": "UIjarPAJH",
-        "hash": "43f82009b8d7d66b6f51d81fd919287254f7432f12bd54b56965091a079c7673"
-      },
-      {
-        "timestamp": 1755089940,
-        "stars": 50,
-        "ton": 0.2177,
-        "rate_per_star": 0.004354,
-        "reference": "OYxPoQ9mR",
-        "hash": "09dcb847b4a3d9de0acaf5635f5dc296d383b0d6c50bf1b4392aa9236d3a2b68"
-      },
-      {
-        "timestamp": 1755089940,
-        "stars": 25000,
-        "ton": 108.8768,
-        "rate_per_star": 0.004355072,
-        "reference": "rQ1sQEu3D",
-        "hash": "88f5c47f10ee2fc723b623dfd4e3dca3fcf2aaffaa4fbfb92dc9bfb31dbc7b23"
-      },
-      {
-        "timestamp": 1755089937,
-        "stars": 6900,
-        "ton": 30.05,
-        "rate_per_star": 0.004355072463768116,
-        "reference": "ab1EJC1P4",
-        "hash": "6c9b4e3f82cca07a44fe705e48b5681962d5bd2f8bb7d24917cac556c7be2edd"
-      },
-      {
-        "timestamp": 1755089937,
-        "stars": 350,
-        "ton": 1.5243,
-        "rate_per_star": 0.004355142857142857,
-        "reference": "7jN5onH0R",
-        "hash": "2fee61c1b9c86458916688764fc1d990ec6d0a6b91f10c073458b30086afa918"
-      },
-      {
-        "timestamp": 1755089937,
-        "stars": 50,
-        "ton": 0.2177,
-        "rate_per_star": 0.004354,
-        "reference": "blof3uKJj",
-        "hash": "03939e0be5b557700fb0813c4809f371854568a782c32b21f009d93e549f1964"
-      },
-      {
-        "timestamp": 1755089937,
-        "stars": 50,
-        "ton": 0.2177,
-        "rate_per_star": 0.004354,
-        "reference": "gw6VQopON",
-        "hash": "06e47c336164934ef31827b8b386e1d17ab44129a2b2ba51685ae9a9430a1c4a"
-      },
-      {
-        "timestamp": 1755089935,
-        "stars": 51,
-        "ton": 0.2221,
-        "rate_per_star": 0.004354901960784314,
-        "reference": "6a8ZqZ3NU",
-        "hash": "df63f25797a88d0e629c5ea101d96e7224442b4365965d79937fac0e97548730"
-      },
-      {
-        "timestamp": 1755089935,
-        "stars": 250,
-        "ton": 1.0887,
-        "rate_per_star": 0.0043548,
-        "reference": "keRqRMGEA",
-        "hash": "1bc5a5b822640488a5cd39d4cd2078e3ed39da5c8896dc0e6e661767d629de89"
-      },
-      {
-        "timestamp": 1755089935,
-        "stars": 1000,
-        "ton": 4.355,
-        "rate_per_star": 0.004355,
-        "reference": "V3kHt0RjO",
-        "hash": "a102f71babb6b748c3615f672552bb97e466ce4077764a355557fd0cb10323bb"
-      },
-      {
-        "timestamp": 1755089935,
-        "stars": 103,
-        "ton": 0.4485,
-        "rate_per_star": 0.004354368932038835,
-        "reference": "PROUt2V3L",
-        "hash": "545b9b4c744f924426ab08fdbd0358e1cccab2258053f99d65cbb6af870f4a64"
-      },
-      {
-        "timestamp": 1755089932,
-        "stars": 75,
-        "ton": 0.3266,
-        "rate_per_star": 0.004354666666666666,
-        "reference": "ihf1X6OYH",
-        "hash": "cdedbd3f41fe146bb29bab027fd2c50d5da00c2dfed3fc9ae68f93d0425df6fa"
-      },
-      {
-        "timestamp": 1755089932,
-        "stars": 750,
-        "ton": 3.2663,
-        "rate_per_star": 0.004355066666666667,
-        "reference": "wTPPMLSNK",
-        "hash": "0d8c629bcf01b027602edcd3d80d0989a26a5757b7f404223a4fb76b483aba68"
-      },
-      {
-        "timestamp": 1755089932,
-        "stars": 100,
-        "ton": 0.4355,
-        "rate_per_star": 0.004355,
-        "reference": "BDQDV0P5q",
-        "hash": "e969921b4bc0c16ba83a6350ba9c291f9b589cb53b422ca79e56245ffa53a284"
-      },
-      {
-        "timestamp": 1755089932,
-        "stars": 51,
-        "ton": 0.2221,
-        "rate_per_star": 0.004354901960784314,
-        "reference": "slLhz9yxO",
-        "hash": "e63cb3311911e379e0813af3abd8b72abab0b0f7a18e84976367212b8dd4c498"
-      },
-      {
-        "timestamp": 1755089932,
-        "stars": 50,
-        "ton": 0.2177,
-        "rate_per_star": 0.004354,
-        "reference": "hhv0vn9Ac",
-        "hash": "7669cd6452cbb7da1d0289f8081182f06af573e011ee0e9835efdb13f30caaf4"
-      },
-      {
-        "timestamp": 1755089930,
-        "stars": 9371,
-        "ton": 40.8114,
-        "rate_per_star": 0.004355074164977057,
-        "reference": "NeLHhCV0w",
-        "hash": "a4abf7b1d459af0891e6c45221d87e4bb7f772a614875007b7aba9457b7c84c5"
-      },
-      {
-        "timestamp": 1755089927,
-        "stars": 1000,
-        "ton": 4.355,
-        "rate_per_star": 0.004355,
-        "reference": "Uboe2LBuA",
-        "hash": "8602f702f7a7d6a1a2a0953751c55ae4705c2fcfb81ff9315a85c2427d1e8cfd"
-      },
-      {
-        "timestamp": 1755089927,
-        "stars": 50,
-        "ton": 0.2177,
-        "rate_per_star": 0.004354,
-        "reference": "q3CLUPeDx",
-        "hash": "c14e5072d7320f7a4c42a14935b4fdd81cefebeaefe9a7621dfb394afc8d6cfa"
-      },
-      {
-        "timestamp": 1755089927,
-        "stars": 235,
-        "ton": 1.0234,
-        "rate_per_star": 0.004354893617021277,
-        "reference": "a2QVjfH2K",
-        "hash": "e4cd0789e6145772fad77d92d65c73c4f830eddf6dd7c6d5a1f420ed8bcfa6fa"
-      },
-      {
-        "timestamp": 1755089925,
-        "stars": 50,
-        "ton": 0.2177,
-        "rate_per_star": 0.004354,
-        "reference": "l9PHMa04s",
-        "hash": "4de125bd05a966009442031652a0db95635c61df7b431dd8ebece835b4bc350d"
-      },
-      {
-        "timestamp": 1755089925,
-        "stars": 275,
-        "ton": 1.1939,
-        "rate_per_star": 0.004341454545454545,
-        "reference": "NT4oNfG98",
-        "hash": "8926ca2b6c45edd544fb34a6196983f920e8852dd9b4aac49f8dadd38d962f2a"
-      },
-      {
-        "timestamp": 1755089925,
-        "stars": 350,
-        "ton": 1.5242,
-        "rate_per_star": 0.004354857142857143,
-        "reference": "rQ7ohDnSR",
-        "hash": "0f89dcd3c74353bc11f71e93d8fc6898f06ca87d031dcddacee582e6efc12261"
-      },
-      {
-        "timestamp": 1755089925,
-        "stars": 295,
-        "ton": 1.2847,
-        "rate_per_star": 0.004354915254237288,
-        "reference": "0G17SyAUJ",
-        "hash": "7b71abd33525cae092bff8638fd988c3b5286af01fac86472ecbfe90f204b1ab"
-      },
-      {
-        "timestamp": 1755089925,
-        "stars": 50,
-        "ton": 0.2177,
-        "rate_per_star": 0.004354,
-        "reference": "tAXfEXyft",
-        "hash": "f4d6c1b01f8b5561fc1d934df3cb7acad1c35fa538c8e7ea41e2c5f58a9afd7b"
-      },
-      {
-        "timestamp": 1755089925,
-        "stars": 1001,
-        "ton": 4.3594,
-        "rate_per_star": 0.004355044955044955,
-        "reference": "3b7Kf3Pj1",
-        "hash": "fe70c131ac449268ee29a98b2fba495d0d5388c2adef781b04973c5dfdb635f4"
-      },
-      {
-        "timestamp": 1755089925,
-        "stars": 2500,
-        "ton": 10.8876,
-        "rate_per_star": 0.00435504,
-        "reference": "HmSkel9fE",
-        "hash": "0ad9a9edb84ee9a38e01f18ecc6ece5740518c4bbbf334e328adf8cc88fe929f"
-      },
-      {
-        "timestamp": 1755089923,
-        "stars": 2500,
-        "ton": 10.8876,
-        "rate_per_star": 0.00435504,
-        "reference": "kzUSOf22n",
-        "hash": "64b4564941ccdc911baef5df16fd05702a7acaa26921aad9ccfb510affc2ca08"
-      },
-      {
-        "timestamp": 1755089920,
-        "stars": 100,
-        "ton": 0.4355,
-        "rate_per_star": 0.004355,
-        "reference": "VLdhz0sb0",
-        "hash": "ea11ff063acb084f2e7e9544694c391042cd5a1e27be52b32f986addfeb9facd"
-      },
-      {
-        "timestamp": 1755089920,
-        "stars": 210,
-        "ton": 0.9145,
-        "rate_per_star": 0.004354761904761905,
-        "reference": "15sHmc0cY",
-        "hash": "943be98ab7c7cbccbbc6ee7c02be0bc6a1a47e493910fa133ad0917d03f2eb3d"
-      },
-      {
-        "timestamp": 1755089918,
-        "stars": 11000,
-        "ton": 47.9058,
-        "rate_per_star": 0.004355072727272727,
-        "reference": "qNlWRKBTb",
-        "hash": "4ba64e54aa050ea7091238edd7e8d4073628d1a8c3ab778890e81573a28531e4"
-      },
-      {
-        "timestamp": 1755089918,
-        "stars": 500,
-        "ton": 2.1775,
-        "rate_per_star": 0.004355,
-        "reference": "WP9ya5jgb",
-        "hash": "b6cd1f649ea5dd770d49319bcb115fb27318f30f482720eace8220cf72b304d1"
-      },
-      {
-        "timestamp": 1755089918,
-        "stars": 600,
-        "ton": 2.613,
-        "rate_per_star": 0.004355,
-        "reference": "I6PbBXrKJ",
-        "hash": "9a9f29b8ed0330b1324cdb08b82601eb592b68e2471eaaaa64587228e686e3d2"
-      },
-      {
-        "timestamp": 1755089918,
-        "stars": 50,
-        "ton": 0.2177,
-        "rate_per_star": 0.004354,
-        "reference": "Il7e0Fmos",
-        "hash": "cca03243f9ff2a1cf6450d35f82f94055da9e96c3c9ca389ae38d463306e2cc3"
-      },
-      {
-        "timestamp": 1755089918,
-        "stars": 150,
-        "ton": 0.6532,
-        "rate_per_star": 0.004354666666666666,
-        "reference": "T4qrQ0mOA",
-        "hash": "fd7e7d082f107538c42c1c6f8ee741f19ac053a183b8c2d36828c95a21d8032e"
-      },
-      {
-        "timestamp": 1755089915,
-        "stars": 50,
-        "ton": 0.2177,
-        "rate_per_star": 0.004354,
-        "reference": "lGCd52Hw6",
-        "hash": "da9c8b7a9a8f70caaa8665c06d5ff5c40a586ba4064d7b743a6adaaf71bcd4a0"
-      },
-      {
-        "timestamp": 1755089915,
-        "stars": 3000,
-        "ton": 13.0659,
-        "rate_per_star": 0.0043552999999999994,
-        "reference": "pqiBkXLFc",
-        "hash": "93c3a86f1dfa19559b8818f966996103855f4c1d7cbd235170fec796ebe3a811"
-      },
-      {
-        "timestamp": 1755089915,
-        "stars": 1000,
-        "ton": 4.355,
-        "rate_per_star": 0.004355,
-        "reference": "Ljz6woCi0",
-        "hash": "9f438f2d19e7fdf089d10f67373fa6ba4998883ceca96e15e603824df8e874c5"
-      },
-      {
-        "timestamp": 1755089913,
-        "stars": 100,
-        "ton": 0.4355,
-        "rate_per_star": 0.004355,
-        "reference": "jZ7TVvGyz",
-        "hash": "88364edd53527de48dfae7fe0a3aa1a1e227a7a5664658fa23392e4f2a8d6c89"
-      },
-      {
-        "timestamp": 1755089913,
-        "stars": 100,
-        "ton": 0.4355,
-        "rate_per_star": 0.004355,
-        "reference": "9ixQ7e2aF",
-        "hash": "ea347d3abea0009045f508752c386335b4e56c520530d5d059fe48d6d43654f7"
-      },
-      {
-        "timestamp": 1755089913,
-        "stars": 500,
-        "ton": 2.1775,
-        "rate_per_star": 0.004355,
-        "reference": "hV132XxMQ",
-        "hash": "01a2dcf72e1b66e79cfcf65611508bc5b90b052d7ef843790f14a8660bc81b1c"
-      },
-      {
-        "timestamp": 1755089913,
-        "stars": 3500,
-        "ton": 15.2435,
-        "rate_per_star": 0.004355285714285714,
-        "reference": "7TAvly3VB",
-        "hash": "bae2b45c7526dded7062dedc7adc35b9e6f389140c97d8ee3f02ace7a890ee84"
-      },
-      {
-        "timestamp": 1755089908,
+        "timestamp": 1755265085,
         "stars": 70,
-        "ton": 0.3048,
-        "rate_per_star": 0.004354285714285714,
-        "reference": "U279WnL9G",
-        "hash": "736cf9e0529972dcbebd544746513b6c8066a8f327f1174692b148421a5a634c"
+        "ton": 0.2997,
+        "rate_per_star": 0.0042814285714285714,
+        "reference": "x4aiMcOmW",
+        "hash": "cdb771bd2d406f8b77f3668c866748aa8b10fadfa6500be86c078eb1617322fc"
       },
       {
-        "timestamp": 1755089908,
-        "stars": 500,
-        "ton": 2.1776,
-        "rate_per_star": 0.0043552,
-        "reference": "ew7LrABeU",
-        "hash": "e3d5d5d500c1cf1eb0acb8a9f041ff87d0eaf70ee94c585a14be6f92127af437"
-      },
-      {
-        "timestamp": 1755089905,
+        "timestamp": 1755265085,
         "stars": 50,
-        "ton": 0.2177,
-        "rate_per_star": 0.004354,
-        "reference": "8ZfqLIVja",
-        "hash": "caeb465bc57463145c309f9e37372142e1c800730333c247aee80d51fb4b9714"
+        "ton": 0.214,
+        "rate_per_star": 0.00428,
+        "reference": "otVDBD5Po",
+        "hash": "32877314f8096579c3f6557acdada263da752c56305217a2fa94e01a145a03b5"
       },
       {
-        "timestamp": 1755089905,
-        "stars": 100,
-        "ton": 0.4355,
-        "rate_per_star": 0.004355,
-        "reference": "llFzM7utL",
-        "hash": "2250266e59070c126c3dcf1c21e50be80a870142a0d1142a6803599569737603"
-      },
-      {
-        "timestamp": 1755089905,
-        "stars": 50,
-        "ton": 0.2177,
-        "rate_per_star": 0.004354,
-        "reference": "yBl3kABoS",
-        "hash": "564cf8d306da08f81cf029eef2b0ee7596ce76e7b51004cc51abfef42f8454aa"
-      },
-      {
-        "timestamp": 1755089905,
-        "stars": 120,
-        "ton": 0.5226,
-        "rate_per_star": 0.0043549999999999995,
-        "reference": "EoRhsiSEG",
-        "hash": "b356ab34196e2e93126b1c516d99a890e009c53b1faa5ebcc4956fdbc14a022d"
-      },
-      {
-        "timestamp": 1755089905,
-        "stars": 110,
-        "ton": 0.4775,
-        "rate_per_star": 0.004340909090909091,
-        "reference": "y52ImCl0b",
-        "hash": "b798384fc6ee494a4c7824f534834482619faf1ff137ea053ec20d98b75a58d7"
-      },
-      {
-        "timestamp": 1755089903,
-        "stars": 125,
-        "ton": 0.5444,
-        "rate_per_star": 0.0043552,
-        "reference": "rcWmxYNRr",
-        "hash": "40fc27b24f9a8165ac8fbb6e1e31ad234b0e490769fc53b0459e6dab10d7badf"
-      },
-      {
-        "timestamp": 1755089903,
-        "stars": 750,
-        "ton": 3.2664,
-        "rate_per_star": 0.0043552,
-        "reference": "zG8rfmSWk",
-        "hash": "d300c7254625f0966f02a6988af76c089675b7694a44e7892f2015d4392a6211"
-      },
-      {
-        "timestamp": 1755089903,
-        "stars": 1000,
-        "ton": 4.355,
-        "rate_per_star": 0.004355,
-        "reference": "Q4Qhx9klP",
-        "hash": "951cc2d45216f6f95b0d2b6763a944d4f5c92742cd5abbf9435ec125e13d100b"
-      },
-      {
-        "timestamp": 1755089903,
-        "stars": 50,
-        "ton": 0.2177,
-        "rate_per_star": 0.004354,
-        "reference": "LuTTcJ9SJ",
-        "hash": "4d8ab9f1c1e1dd28cff21d164b11ab8218d783acd9620f40dfe4e57fd1d8f5f6"
-      },
-      {
-        "timestamp": 1755089900,
-        "stars": 100,
-        "ton": 0.4355,
-        "rate_per_star": 0.004355,
-        "reference": "CKwXJyPCP",
-        "hash": "db20ce8c48cc3c7bea29e5fa217c9b8cb3449f61cd3b75e234f6ab8b2dbbc5ec"
-      },
-      {
-        "timestamp": 1755089900,
-        "stars": 309,
-        "ton": 1.3457,
-        "rate_per_star": 0.004355016181229773,
-        "reference": "oe2yMgIk3",
-        "hash": "b4feaee5241e6213481e49b87fb5f0d554ce8dc839341fecef105bb439af847e"
-      },
-      {
-        "timestamp": 1755089898,
+        "timestamp": 1755265085,
         "stars": 200,
-        "ton": 0.871,
-        "rate_per_star": 0.004355,
-        "reference": "E7ypGjEbv",
-        "hash": "d2593f19b74e934d58477ee307c337df25df8aa5870dbc9664f37831a6c60252"
+        "ton": 0.8562,
+        "rate_per_star": 0.004281,
+        "reference": "ds7Wx5hKc",
+        "hash": "4307bfbad52d2bef4acffc224cbf7db88637e64a82dc9488fa07b0992b28d548"
       },
       {
-        "timestamp": 1755089898,
+        "timestamp": 1755265082,
+        "stars": 300,
+        "ton": 1.2844,
+        "rate_per_star": 0.004281333333333333,
+        "reference": "wWUXqm1vi",
+        "hash": "c0144ed2d8776a2c035001e55cb29aaeb804bc478492a86b11faf76082ed4f08"
+      },
+      {
+        "timestamp": 1755265082,
+        "stars": 300,
+        "ton": 1.2844,
+        "rate_per_star": 0.004281333333333333,
+        "reference": "Zf7GbZyoN",
+        "hash": "955ef4ffd8c94d5aa20cc92df8ab104cb8d214660ac6713b0ddfa8917cc66362"
+      },
+      {
+        "timestamp": 1755265082,
         "stars": 75,
-        "ton": 0.3266,
-        "rate_per_star": 0.004354666666666666,
-        "reference": "7NceYkh8n",
-        "hash": "6f24695c122f6ca87db09eb5f080722a6c79980e9cfcc22866d1490e214410f4"
+        "ton": 0.3211,
+        "rate_per_star": 0.004281333333333333,
+        "reference": "GTa7NchIa",
+        "hash": "e47165bb606779f004f844a123f61207cfd842eb481bb0dd6cb45703e3e7ea37"
       },
       {
-        "timestamp": 1755089898,
+        "timestamp": 1755265079,
+        "stars": 140,
+        "ton": 0.5994,
+        "rate_per_star": 0.0042814285714285714,
+        "reference": "Xn8kgmwSA",
+        "hash": "557d226a06412f57cba1f61b51750f814b563d7120ac29eba52464aee5bada16"
+      },
+      {
+        "timestamp": 1755265076,
+        "stars": 75,
+        "ton": 0.3211,
+        "rate_per_star": 0.004281333333333333,
+        "reference": "Y3enZ2Lcs",
+        "hash": "7e104d672f7d707159e3be41d01acf846f76fe37d2e44766bbc4ac3176427472"
+      },
+      {
+        "timestamp": 1755265076,
+        "stars": 100,
+        "ton": 0.4281,
+        "rate_per_star": 0.004281,
+        "reference": "WiPzN8ja4",
+        "hash": "c3705b9914ec56a00211935b17100e1b928f40f8be8a660f69d54e0339c0f364"
+      },
+      {
+        "timestamp": 1755265076,
+        "stars": 150,
+        "ton": 0.6422,
+        "rate_per_star": 0.004281333333333333,
+        "reference": "nrEWicHKO",
+        "hash": "47988aa4dfe17d4a41c430cb2a0b9111f11d4dcb41d3732122aff46791dd8298"
+      },
+      {
+        "timestamp": 1755265073,
+        "stars": 100,
+        "ton": 0.4281,
+        "rate_per_star": 0.004281,
+        "reference": "CqPX2EP5a",
+        "hash": "12517aa63cef8d093935156c1d4fc77afc8e422791cbb65e10b2772f0ba1219e"
+      },
+      {
+        "timestamp": 1755265073,
         "stars": 50,
-        "ton": 0.2177,
-        "rate_per_star": 0.004354,
-        "reference": "1QvFQ07ap",
-        "hash": "eba6b7b15639791dc150c8e6a1c167a8cf44edc96988e2a7365c1abd3154fcca"
+        "ton": 0.214,
+        "rate_per_star": 0.00428,
+        "reference": "jlQzUy4vB",
+        "hash": "7f46f8e333bac934d11ccee148cedae4220227c84c164461ca99115030b412b9"
       },
       {
-        "timestamp": 1755089895,
-        "stars": 61,
-        "ton": 0.2656,
-        "rate_per_star": 0.004354098360655738,
-        "reference": "fqq998Ms4",
-        "hash": "76fd96bc81a264b2f11a0aef17efa44f492e1119bc197af5751b67e2c29e3cd1"
+        "timestamp": 1755265070,
+        "stars": 60,
+        "ton": 0.2568,
+        "rate_per_star": 0.00428,
+        "reference": "cvooWQ7nT",
+        "hash": "12e6f5cd45857b7e9c347e52bd9f2792fc39d7216d26c69e940bfc5458e71e1a"
       },
       {
-        "timestamp": 1755089893,
-        "stars": 10100,
-        "ton": 43.9885,
-        "rate_per_star": 0.00435529702970297,
-        "reference": "FhO8GollJ",
-        "hash": "8302274b82470446d7c8db36e42dcb27f7e4e506c00dfe44e3cc9e7c070dbac6"
+        "timestamp": 1755265070,
+        "stars": 50,
+        "ton": 0.214,
+        "rate_per_star": 0.00428,
+        "reference": "hzArusEzE",
+        "hash": "6794caa71dbb6ef1addc58878e3a95a987ddd30a0f8ada30afebcf9676e0e2ab"
+      },
+      {
+        "timestamp": 1755265070,
+        "stars": 5500,
+        "ton": 23.5484,
+        "rate_per_star": 0.004281527272727273,
+        "reference": "FBTbasV89",
+        "hash": "218ed9bd18f230da36a953c8b076448262287ddd5dc064b93c5d1f206fed901f"
+      },
+      {
+        "timestamp": 1755265070,
+        "stars": 500,
+        "ton": 2.1407,
+        "rate_per_star": 0.0042813999999999994,
+        "reference": "ICtdArYhi",
+        "hash": "766a9f5658cf524b0fc99c46a38c57c29e7ef432ba670eaaf5f082a4110fd5b8"
+      },
+      {
+        "timestamp": 1755265070,
+        "stars": 50,
+        "ton": 0.214,
+        "rate_per_star": 0.00428,
+        "reference": "braR5snSN",
+        "hash": "e032605464ca751f8ffc33cf90dffb13df0b42b9acd3700d1fd15fda0054e20c"
+      },
+      {
+        "timestamp": 1755265070,
+        "stars": 500,
+        "ton": 2.1407,
+        "rate_per_star": 0.0042813999999999994,
+        "reference": "FbOq3ZoHs",
+        "hash": "b42dc3527a02c0e056c23adcc41a7741ba940ba65bc73553f888e929fd2cd395"
+      },
+      {
+        "timestamp": 1755265070,
+        "stars": 80,
+        "ton": 0.3425,
+        "rate_per_star": 0.00428125,
+        "reference": "xIbeLBPO4",
+        "hash": "52cb42a785bd059838faa512c8fbc76be4eeeca9d23a5b84a501d46a2789e9f1"
+      },
+      {
+        "timestamp": 1755265063,
+        "stars": 350,
+        "ton": 1.4985,
+        "rate_per_star": 0.0042814285714285714,
+        "reference": "26OxYbs7t",
+        "hash": "d978df415831be9420347fbef0abadd779e4efa414d677f0fc9605d86f3fad4e"
+      },
+      {
+        "timestamp": 1755265063,
+        "stars": 50,
+        "ton": 0.214,
+        "rate_per_star": 0.00428,
+        "reference": "HNuSP1dpt",
+        "hash": "9459bbb3cd31d49ee5a48e7069e227803f70ab9dca2856564347bd9a1d6228ba"
+      },
+      {
+        "timestamp": 1755265063,
+        "stars": 50,
+        "ton": 0.214,
+        "rate_per_star": 0.00428,
+        "reference": "DKijQiAkW",
+        "hash": "67d45f36b493275db6b52a41d9add3dd79d47a3b50cb72b702f4d039c2d6835d"
+      },
+      {
+        "timestamp": 1755265063,
+        "stars": 100,
+        "ton": 0.4281,
+        "rate_per_star": 0.004281,
+        "reference": "03cEPym07",
+        "hash": "e570028b370826b1e6935cc73c3eb8a8d25fe9ab1c13203e2b7bf77a57f67fb0"
+      },
+      {
+        "timestamp": 1755265057,
+        "stars": 1000,
+        "ton": 4.2815,
+        "rate_per_star": 0.004281500000000001,
+        "reference": "1W8n7w887",
+        "hash": "53bca38ac13bd6325ff8abc52aa596936229f622e1949047ebaee3b77b0dc119"
+      },
+      {
+        "timestamp": 1755265057,
+        "stars": 100,
+        "ton": 0.4281,
+        "rate_per_star": 0.004281,
+        "reference": "QT5p3tSNG",
+        "hash": "9d47a361efd5ba190c6ce72236ce564373b282b7e62addf278eeab6fdf4bbc76"
+      },
+      {
+        "timestamp": 1755265057,
+        "stars": 150,
+        "ton": 0.6422,
+        "rate_per_star": 0.004281333333333333,
+        "reference": "WOXZdmHtG",
+        "hash": "f26e8961b1ba876b67dfeba84d4ad06438b7f3d202349fbc0e2781e9015efa93"
+      },
+      {
+        "timestamp": 1755265057,
+        "stars": 50,
+        "ton": 0.214,
+        "rate_per_star": 0.00428,
+        "reference": "YoadEziPp",
+        "hash": "9cf12950e6f0c4a4248e59d757845f14cab6a0173e7d1c1706b8c3a24d4a86b9"
+      },
+      {
+        "timestamp": 1755265057,
+        "stars": 50,
+        "ton": 0.214,
+        "rate_per_star": 0.00428,
+        "reference": "DzABNxMVA",
+        "hash": "9509fba2d438370f5b3a24b02769ea55bb7b41c985e293bf4325b14100c7b936"
+      },
+      {
+        "timestamp": 1755265057,
+        "stars": 500,
+        "ton": 2.1407,
+        "rate_per_star": 0.0042813999999999994,
+        "reference": "YEFkHDjT8",
+        "hash": "a7407848f390a81879d12758060bd8b744481aaff1e48b54ac0b670c1fc8e1fd"
+      },
+      {
+        "timestamp": 1755265057,
+        "stars": 300,
+        "ton": 1.2843,
+        "rate_per_star": 0.004281,
+        "reference": "Ymd3E2S4g",
+        "hash": "9e5ed65aaf56f7e7df8b9781be0bb0809cfe70dc32b576f8c9c5778110ca127e"
+      },
+      {
+        "timestamp": 1755265053,
+        "stars": 100,
+        "ton": 0.4281,
+        "rate_per_star": 0.004281,
+        "reference": "fVXCy6HHo",
+        "hash": "ac62e4a01c20661621f3320aa27dc0472e1769f85b6c3c60a89c9b570403e3c1"
+      },
+      {
+        "timestamp": 1755265050,
+        "stars": 100,
+        "ton": 0.4281,
+        "rate_per_star": 0.004281,
+        "reference": "ll1tFSxjI",
+        "hash": "ad884015792c90e95b387cf11077cc31cf19c18414525c4b8245a80bd24e0137"
+      },
+      {
+        "timestamp": 1755265050,
+        "stars": 50,
+        "ton": 0.214,
+        "rate_per_star": 0.00428,
+        "reference": "e8rPx6tlC",
+        "hash": "1dd83ffd7410f435e89adf121997b077d0ce246bae928261ba539e5678184cbc"
+      },
+      {
+        "timestamp": 1755265050,
+        "stars": 250,
+        "ton": 1.0703,
+        "rate_per_star": 0.0042812,
+        "reference": "Cb2rbFFvx",
+        "hash": "6b3c01f50d100c12d01e99a9a5c19f1a0c1ea6fa2ca4e277079ff4a7324e369d"
+      },
+      {
+        "timestamp": 1755265050,
+        "stars": 500,
+        "ton": 2.1407,
+        "rate_per_star": 0.0042813999999999994,
+        "reference": "C4AOPdG3j",
+        "hash": "c476d988e7fb64cf95e7f062f37d66518204065dd995fbdae3b9e54800b3d15f"
+      },
+      {
+        "timestamp": 1755265047,
+        "stars": 500,
+        "ton": 2.1397,
+        "rate_per_star": 0.0042794,
+        "reference": "W4hCjTsCS",
+        "hash": "6c942d2e8ca5047e7324954416e63c74f49c2d7b25132fb04d26b107134f1146"
+      },
+      {
+        "timestamp": 1755265047,
+        "stars": 50,
+        "ton": 0.214,
+        "rate_per_star": 0.00428,
+        "reference": "wZ3mbPuB5",
+        "hash": "e238ffd4185855966daed47db4ef0c807f34c1de92dc7c97f69b7c209d28735f"
+      },
+      {
+        "timestamp": 1755265044,
+        "stars": 100,
+        "ton": 0.4281,
+        "rate_per_star": 0.004281,
+        "reference": "2OBxVtZyl",
+        "hash": "944c47f777593ebfb8d014c9c6ca5ba8a548a8612b1d382d7655457e0b295824"
+      },
+      {
+        "timestamp": 1755265044,
+        "stars": 50,
+        "ton": 0.214,
+        "rate_per_star": 0.00428,
+        "reference": "rKPH7r1DZ",
+        "hash": "7ca45207081f9d575395aaffd88d7eef670223c1c527dc6421fcc467f41051be"
+      },
+      {
+        "timestamp": 1755265044,
+        "stars": 75,
+        "ton": 0.3211,
+        "rate_per_star": 0.004281333333333333,
+        "reference": "RHJxGKT5u",
+        "hash": "7e224b85cb175e78aa902bef07e9c1cf5a44f4e2552374072f3d7f689b3c1bc3"
+      },
+      {
+        "timestamp": 1755265044,
+        "stars": 50,
+        "ton": 0.214,
+        "rate_per_star": 0.00428,
+        "reference": "m5K9nJ88n",
+        "hash": "5c59343a91e2fa53731508f6ebfaa5719dfb8da78b99bb62fb22741cf7acd4e7"
+      },
+      {
+        "timestamp": 1755265041,
+        "stars": 50,
+        "ton": 0.214,
+        "rate_per_star": 0.00428,
+        "reference": "deunUg0jA",
+        "hash": "18127d4c3c307bc104ca10e664f0b97fc3ed5f17fd5f13b0b37351eb82fc8142"
+      },
+      {
+        "timestamp": 1755265041,
+        "stars": 50,
+        "ton": 0.214,
+        "rate_per_star": 0.00428,
+        "reference": "HHylsGpnf",
+        "hash": "cc596ae5f16a9e7b8c1953617ee10908c1819285efc02ce55732ba10ac612cc2"
+      },
+      {
+        "timestamp": 1755265041,
+        "stars": 500,
+        "ton": 2.1407,
+        "rate_per_star": 0.0042813999999999994,
+        "reference": "Oe7hGkibi",
+        "hash": "d9087d4d5cdd9fe534cf306a0c581767a54cc08152b1cd54097ec15650999eb8"
+      },
+      {
+        "timestamp": 1755265037,
+        "stars": 200,
+        "ton": 0.8562,
+        "rate_per_star": 0.004281,
+        "reference": "F5R9j1KkT",
+        "hash": "89043bd947d348a8ec4d54387fa7e01d5766e9b34f26405609eaaa82f5e27e0c"
+      },
+      {
+        "timestamp": 1755265037,
+        "stars": 50,
+        "ton": 0.214,
+        "rate_per_star": 0.00428,
+        "reference": "54WFHxlSF",
+        "hash": "50c10b221a0cd7ec79c82ef6d1697b21a9b20baee34d6a3e41fafef21e6d1e9c"
+      },
+      {
+        "timestamp": 1755265037,
+        "stars": 51,
+        "ton": 0.2183,
+        "rate_per_star": 0.004280392156862745,
+        "reference": "kwcHA32pU",
+        "hash": "4c5faede9fc6a12f49b7107c8bfaf3297e72ea53e5d52a978122c0db0f251d7f"
+      },
+      {
+        "timestamp": 1755265037,
+        "stars": 100,
+        "ton": 0.4281,
+        "rate_per_star": 0.004281,
+        "reference": "R1QfbWeHt",
+        "hash": "b13ecdaf495fa2c2925c1f31573cdb5fd6aa47e32d819028c7af618cbc2da1e1"
+      },
+      {
+        "timestamp": 1755265034,
+        "stars": 100,
+        "ton": 0.4285,
+        "rate_per_star": 0.004285,
+        "reference": "NOEELeydN",
+        "hash": "c8833d497957dbe4f0a9695d253ef5cf5cfedd1d5ff98bf5284a4290daa60ef9"
+      },
+      {
+        "timestamp": 1755265034,
+        "stars": 230,
+        "ton": 0.9846,
+        "rate_per_star": 0.004280869565217392,
+        "reference": "C1bopdYbt",
+        "hash": "b050fbe6cb244800a934d7582f1b228c8ef2f7082d5f4d0bc5b047da9477f7f4"
+      },
+      {
+        "timestamp": 1755265034,
+        "stars": 50,
+        "ton": 0.214,
+        "rate_per_star": 0.00428,
+        "reference": "MsLjaSJrf",
+        "hash": "94819ecf9c041a2ee15e72b9a6f36dedf4c4b5fb7f579a805ff841f6fa4afa13"
+      },
+      {
+        "timestamp": 1755265030,
+        "stars": 100,
+        "ton": 0.4281,
+        "rate_per_star": 0.004281,
+        "reference": "pcpHiZkGk",
+        "hash": "25ea8af56793620ffa1bfcf33a9fdf6ec84ed09620dc23f0c099820fbbbd99bc"
+      },
+      {
+        "timestamp": 1755265027,
+        "stars": 100,
+        "ton": 0.4281,
+        "rate_per_star": 0.004281,
+        "reference": "NoFPL1IgS",
+        "hash": "810adf6302ba2706f64be4c8d6328c00c772de6cb64fd4124b7c98572ac2e176"
+      },
+      {
+        "timestamp": 1755265027,
+        "stars": 2000,
+        "ton": 8.5624,
+        "rate_per_star": 0.0042812,
+        "reference": "ChCPLRZRL",
+        "hash": "389dc9c5244ec6e98d1599320c21dbed76b0d57f6669067c8addc429b3f8474f"
+      },
+      {
+        "timestamp": 1755265027,
+        "stars": 75,
+        "ton": 0.321,
+        "rate_per_star": 0.00428,
+        "reference": "jVGuI44DW",
+        "hash": "862e3a8c6df396d352bdaa109ca5dc0728e94d65411681901973e8d4558047ed"
+      },
+      {
+        "timestamp": 1755265027,
+        "stars": 205,
+        "ton": 0.8776,
+        "rate_per_star": 0.004280975609756097,
+        "reference": "oeDolpa6j",
+        "hash": "c060c8854b735de2fc87e0f0b1e87ef8a929294604349d93aedd5ff4a6f5c3e7"
+      },
+      {
+        "timestamp": 1755265024,
+        "stars": 500,
+        "ton": 2.1406,
+        "rate_per_star": 0.0042812,
+        "reference": "vL1zeJptR",
+        "hash": "0c1cbce218fa50ed706301af4d8f360235cc2803654f7774e36ecc57f0840d4a"
+      },
+      {
+        "timestamp": 1755265024,
+        "stars": 50,
+        "ton": 0.214,
+        "rate_per_star": 0.00428,
+        "reference": "rJWbez9xe",
+        "hash": "26e73897954d5f1f635b5d18aeda22855bb5ed3cd7df711d3337a440f801a22d"
+      },
+      {
+        "timestamp": 1755265024,
+        "stars": 75,
+        "ton": 0.321,
+        "rate_per_star": 0.00428,
+        "reference": "cGEdGyQR6",
+        "hash": "7179e73a73403c894ed4cb267e8590c58457bcab3148c68b7f0f836f5a0615ff"
+      },
+      {
+        "timestamp": 1755265024,
+        "stars": 50,
+        "ton": 0.214,
+        "rate_per_star": 0.00428,
+        "reference": "8Wr3OT7Od",
+        "hash": "e5eb5577f1207db50e1cce71e03688978e21e75fc1e0f67f2b22a997dd3f5108"
+      },
+      {
+        "timestamp": 1755265024,
+        "stars": 125,
+        "ton": 0.5351,
+        "rate_per_star": 0.0042808,
+        "reference": "ErPs5tc8x",
+        "hash": "9569f7681fd0c9ad24b6a29be0fbad3f89ac0f0790e913ef488eb6e687c11ecc"
+      },
+      {
+        "timestamp": 1755265024,
+        "stars": 500,
+        "ton": 2.1408,
+        "rate_per_star": 0.0042816,
+        "reference": "gyoYgBOvp",
+        "hash": "69f4245e0bc8e408346a3e314effcccce40646c2f1399e72398c4243d62715cb"
+      },
+      {
+        "timestamp": 1755265021,
+        "stars": 50,
+        "ton": 0.214,
+        "rate_per_star": 0.00428,
+        "reference": "0O5nr8cHJ",
+        "hash": "c6aadec06de67bdc398bccfce3f8f4d01994e704c5a67a0e0706c199d4a1f680"
+      },
+      {
+        "timestamp": 1755265018,
+        "stars": 2500,
+        "ton": 10.703,
+        "rate_per_star": 0.0042812,
+        "reference": "Dczbbw8yi",
+        "hash": "3804da8dc9ad81e9e2b27f7870f3c2c1728fc0ab191b925cd974b3cf9188fa21"
+      },
+      {
+        "timestamp": 1755265018,
+        "stars": 400,
+        "ton": 1.7124,
+        "rate_per_star": 0.004281,
+        "reference": "o1PxZCh1D",
+        "hash": "1c2234b29cf225ff161f787bd0163a1e054372ad97d2cf27c38c535609fc3f12"
+      },
+      {
+        "timestamp": 1755265018,
+        "stars": 50,
+        "ton": 0.214,
+        "rate_per_star": 0.00428,
+        "reference": "NEFpRhsGz",
+        "hash": "ba9354b0c1c45607f922246a1fa78382e21b51e3ac681b84fdb0627d40c5fb3c"
+      },
+      {
+        "timestamp": 1755265018,
+        "stars": 400,
+        "ton": 1.7124,
+        "rate_per_star": 0.004281,
+        "reference": "Rk0FTTkRm",
+        "hash": "7f8cf425c6af9055867cd4bb7ed9b65c09295772fe74fa85d6a29fd7b51c307f"
+      },
+      {
+        "timestamp": 1755265018,
+        "stars": 500,
+        "ton": 2.1406,
+        "rate_per_star": 0.0042812,
+        "reference": "rddeBIfpf",
+        "hash": "f4d831c02528d523e6f1ee0cf4db0eaa72aadf8741b50610ec545abaf9762aa0"
+      },
+      {
+        "timestamp": 1755265018,
+        "stars": 100,
+        "ton": 0.4281,
+        "rate_per_star": 0.004281,
+        "reference": "G83kmSyLK",
+        "hash": "997f71f1387130621d2d6a5155d10b99f8e88bfd81ceb2061fe6d81751480258"
+      },
+      {
+        "timestamp": 1755265018,
+        "stars": 250,
+        "ton": 1.0703,
+        "rate_per_star": 0.0042812,
+        "reference": "0ZA0hp1QT",
+        "hash": "8b68e0c960861684eaf889a748b56aa199e27b6e158e124062d902e1fa8af5f1"
+      },
+      {
+        "timestamp": 1755265008,
+        "stars": 100,
+        "ton": 0.4281,
+        "rate_per_star": 0.004281,
+        "reference": "XKbR5R7HY",
+        "hash": "12a569e03b4011281d0597a767b1fe1e77e2f9160867997a21d758749a5cca46"
+      },
+      {
+        "timestamp": 1755265008,
+        "stars": 50,
+        "ton": 0.2142,
+        "rate_per_star": 0.004284,
+        "reference": "DWcEyZ12P",
+        "hash": "07e3b4bbf6bbc8f5fd63c9842f3a7756d4d4cb49a85faba83dc65201fb64fe89"
+      },
+      {
+        "timestamp": 1755265008,
+        "stars": 60,
+        "ton": 0.2568,
+        "rate_per_star": 0.00428,
+        "reference": "itW78L8HY",
+        "hash": "df01f9c8bcd5d2606e0a6f9fb6e8454468041528149025133f84081f3cc93f8b"
+      },
+      {
+        "timestamp": 1755265008,
+        "stars": 103,
+        "ton": 0.4409,
+        "rate_per_star": 0.0042805825242718445,
+        "reference": "HzWW1qaN0",
+        "hash": "34102243b2bd03d931db84161096d078853cdf98b64aaa846dde7b484eb729d7"
+      },
+      {
+        "timestamp": 1755265008,
+        "stars": 150,
+        "ton": 0.6421,
+        "rate_per_star": 0.004280666666666667,
+        "reference": "h00hpNjZu",
+        "hash": "14d795b1479cbe740294bb8405659a167eeccd4224c76682d08e49388ec0009a"
+      },
+      {
+        "timestamp": 1755265008,
+        "stars": 100,
+        "ton": 0.4281,
+        "rate_per_star": 0.004281,
+        "reference": "mpCoHLWwP",
+        "hash": "0ed4030dbb3d82650d30448892a9aba3147d414ea982ff11c295ecc828f66b74"
+      },
+      {
+        "timestamp": 1755265008,
+        "stars": 310,
+        "ton": 1.3271,
+        "rate_per_star": 0.004280967741935484,
+        "reference": "uQLkaA3yK",
+        "hash": "10f6453b2ec37deb4bf5e68df84b2686b6d493cbe4e3f98b25e72a929253c8a1"
+      },
+      {
+        "timestamp": 1755264996,
+        "stars": 250,
+        "ton": 1.0703,
+        "rate_per_star": 0.0042812,
+        "reference": "nyeW0SKPB",
+        "hash": "ae4ce4340b687e3ba83f02692d188238068660ffa18e567d6e00e3e30b734614"
+      },
+      {
+        "timestamp": 1755264994,
+        "stars": 1000,
+        "ton": 4.2812,
+        "rate_per_star": 0.0042812,
+        "reference": "3tWLd8OFC",
+        "hash": "aa151fed5b01b60e0aae6db3e85c2f5cbc417b7033684ab5ea8512737c11a8a6"
+      },
+      {
+        "timestamp": 1755264994,
+        "stars": 50,
+        "ton": 0.2142,
+        "rate_per_star": 0.004284,
+        "reference": "dvymLVy4n",
+        "hash": "5a755c2025781972893a71fc6d4ba1ea1439efafa4e61ead78338362dc263b47"
+      },
+      {
+        "timestamp": 1755264992,
+        "stars": 3000,
+        "ton": 12.8436,
+        "rate_per_star": 0.0042812,
+        "reference": "2nsKaiZZy",
+        "hash": "87785225d6b2be5fbc5592a6d403202e43bea83134284710847ada3046f6b3b3"
+      },
+      {
+        "timestamp": 1755264992,
+        "stars": 158,
+        "ton": 0.6764,
+        "rate_per_star": 0.004281012658227848,
+        "reference": "uy0ZQPyXS",
+        "hash": "350ed6d9a553dca5ae96c32e5ffcef162bb63e5c92ea45cffa66bfebfb856f17"
+      },
+      {
+        "timestamp": 1755264992,
+        "stars": 200,
+        "ton": 0.8563,
+        "rate_per_star": 0.0042815,
+        "reference": "L7Ku4wrok",
+        "hash": "18b43f29517de7189c2a917b55fcd5b758a7ffef5a34b81c7d5bc37869666eff"
+      },
+      {
+        "timestamp": 1755264992,
+        "stars": 100,
+        "ton": 0.4281,
+        "rate_per_star": 0.004281,
+        "reference": "qasANzh4v",
+        "hash": "3177ccb498f8af6adeb499fef0f4e7b283187619aad340cf4d9eada5c5bddcd5"
+      },
+      {
+        "timestamp": 1755264986,
+        "stars": 100,
+        "ton": 0.4281,
+        "rate_per_star": 0.004281,
+        "reference": "udqFnxyCs",
+        "hash": "0bcc2c1d935aec380ca06061aad83bb3b949a2713feffb4f72d6e6646a36b040"
+      },
+      {
+        "timestamp": 1755264986,
+        "stars": 1700,
+        "ton": 7.2787,
+        "rate_per_star": 0.004281588235294118,
+        "reference": "sOj60RkMs",
+        "hash": "e6eef9796a647e4bc4e959c6980800e1412b22995b53b7765d468c2e229c594a"
+      },
+      {
+        "timestamp": 1755264984,
+        "stars": 50,
+        "ton": 0.214,
+        "rate_per_star": 0.00428,
+        "reference": "g0WiP6pxn",
+        "hash": "b2a622fc8eff39ba367cab02277f2f4df503e650059d05913ca1c90dd6e05337"
+      },
+      {
+        "timestamp": 1755264984,
+        "stars": 425,
+        "ton": 1.8196,
+        "rate_per_star": 0.0042814117647058825,
+        "reference": "gipjwiELp",
+        "hash": "d851199eff46b1906552886d77a4395f0802b974a52c3625c321f454ae28537b"
+      },
+      {
+        "timestamp": 1755264981,
+        "stars": 50,
+        "ton": 0.214,
+        "rate_per_star": 0.00428,
+        "reference": "1Pl4X7NAm",
+        "hash": "e341d51b4452fb64838bf3eb2514a70e7b80ad45755119d441d6b4a3b49f4108"
+      },
+      {
+        "timestamp": 1755264981,
+        "stars": 60,
+        "ton": 0.2568,
+        "rate_per_star": 0.00428,
+        "reference": "VmUvOqXcd",
+        "hash": "518137528dfb422de9c6163e2101f86c00f05acc18d10ef4d872dad5c5e23590"
+      },
+      {
+        "timestamp": 1755264981,
+        "stars": 250,
+        "ton": 1.0703,
+        "rate_per_star": 0.0042812,
+        "reference": "To9tRkhgY",
+        "hash": "463a0dd86917dd1cfc6493b3d7f3422361b8c6c6445a1e500dd4ff75cd13f70a"
+      },
+      {
+        "timestamp": 1755264981,
+        "stars": 100,
+        "ton": 0.4281,
+        "rate_per_star": 0.004281,
+        "reference": "N4zF5Aj0U",
+        "hash": "e775c59a35659cc0f7b8e1d832ab3dda5439b3807f17ea653bc901052f7c4b1a"
+      },
+      {
+        "timestamp": 1755264979,
+        "stars": 100,
+        "ton": 0.4281,
+        "rate_per_star": 0.004281,
+        "reference": "d74YaJXW4",
+        "hash": "797e9d5b53c401aaf8df671ff6b660e3413a6b83e14fe42ed3dc87ad62f75803"
+      },
+      {
+        "timestamp": 1755264976,
+        "stars": 55,
+        "ton": 0.2354,
+        "rate_per_star": 0.00428,
+        "reference": "bLX0onduG",
+        "hash": "37a5c406a98da78da295275bb1c2c90b1f9db33a876a843fbe973db233029040"
+      },
+      {
+        "timestamp": 1755264976,
+        "stars": 381,
+        "ton": 1.6312,
+        "rate_per_star": 0.004281364829396325,
+        "reference": "QLT3ZleP2",
+        "hash": "a1801c53b2b6a16b2a7757a9df2b5779ecd5b9d23cdd1832a0646c348fc27945"
       }
     ]
   },
   "binance_raw": {
-    "usdt_per_ton": 3.449,
-    "last_updated": "2025-08-13T12:59:38.035946+00:00",
+    "usdt_per_ton": 3.484,
+    "last_updated": "2025-08-15T13:38:22.888108+00:00",
     "source": "binance"
   }
 }
