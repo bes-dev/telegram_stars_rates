@@ -17,7 +17,7 @@ class StarsConverter {
 
     async loadRates() {
         try {
-            const response = await fetch('./rates.json');
+            const response = await fetch('./rates.json?v=' + Date.now());
             if (!response.ok) {
                 throw new Error(`HTTP ${response.status}`);
             }
@@ -39,7 +39,7 @@ class StarsConverter {
 
     async loadHistory() {
         try {
-            const response = await fetch('./history.json');
+            const response = await fetch('./history.json?v=' + Date.now());
             if (!response.ok) {
                 // If history doesn't exist yet, that's OK
                 this.historyData = [];
@@ -47,6 +47,7 @@ class StarsConverter {
             }
             
             this.historyData = await response.json();
+            console.log('Loaded history data:', this.historyData);
         } catch (error) {
             console.warn('Failed to load historical data:', error);
             this.historyData = [];
