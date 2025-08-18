@@ -95,17 +95,30 @@ def main():
                 "usdt_per_ton": round(rates_data["usdt_per_ton"], 3)
             }
             
-            # Remove any existing entry for today (avoid duplicates)
             today = current_point["date"]
-            history_data = [h for h in history_data if h.get("date") != today]
             
-            # Add new point
-            history_data.append(current_point)
+            # Check if we already have an entry for today
+            existing_today = None
+            for i, h in enumerate(history_data):
+                if h.get("date") == today:
+                    existing_today = i
+                    break
+            
+            if existing_today is not None:
+                # Update existing entry for today (better rate data)
+                history_data[existing_today] = current_point
+                print(f"📊 Updated existing entry for {today}")
+            else:
+                # Add new entry for new day
+                history_data.append(current_point)
+                print(f"➕ Added new entry for {today}")
             
             # Sort by date and keep only last 90 days
             history_data = sorted(history_data, key=lambda x: x["date"])
             if len(history_data) > 90:
+                removed_count = len(history_data) - 90
                 history_data = history_data[-90:]
+                print(f"🗑️ Removed {removed_count} old entries, keeping last 90 days")
         
         # Save updated history
         with open(history_file, 'w', encoding='utf-8') as f:
