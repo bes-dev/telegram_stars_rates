@@ -2,17 +2,13 @@ class StarsConverter {
     constructor() {
         this.currentRate = 0;
         this.rateData = null;
-        this.historyData = null;
-        this.chart = null;
         this.init();
     }
 
     async init() {
         await this.loadRates();
-        await this.loadHistory();
         this.setupEventListeners();
         this.updateDisplay();
-        this.createChart();
     }
 
     async loadRates() {
@@ -37,22 +33,6 @@ class StarsConverter {
         }
     }
 
-    async loadHistory() {
-        try {
-            const response = await fetch('./history.json?v=' + Date.now());
-            if (!response.ok) {
-                // If history doesn't exist yet, that's OK
-                this.historyData = [];
-                return;
-            }
-            
-            this.historyData = await response.json();
-            console.log('Loaded history data:', this.historyData);
-        } catch (error) {
-            console.warn('Failed to load historical data:', error);
-            this.historyData = [];
-        }
-    }
 
     setupEventListeners() {
         const starsInput = document.getElementById('stars-input');
@@ -121,125 +101,6 @@ class StarsConverter {
         errorDiv.style.display = 'none';
     }
 
-    createChart() {
-        if (!this.historyData || this.historyData.length === 0) {
-            // Show message instead of hiding completely
-            const chartSection = document.querySelector('.chart-section');
-            const chartContainer = document.querySelector('.chart-container');
-            if (chartSection && chartContainer) {
-                chartContainer.innerHTML = `
-                    <div style="
-                        display: flex; 
-                        align-items: center; 
-                        justify-content: center; 
-                        height: 200px; 
-                        color: #64748b; 
-                        text-align: center;
-                        flex-direction: column;
-                        gap: 8px;
-                    ">
-                        <div style="font-size: 1.5rem;">📊</div>
-                        <div>Historical data will appear here after daily updates</div>
-                        <div style="font-size: 0.875rem;">Check back tomorrow for rate trends</div>
-                    </div>
-                `;
-            }
-            return;
-        }
-
-        // Show chart section
-        const chartSection = document.querySelector('.chart-section');
-        if (chartSection) {
-            chartSection.style.display = 'block';
-        }
-
-        const ctx = document.getElementById('rateChart');
-        if (!ctx) return;
-
-        // Update chart title with actual data range
-        const chartTitle = document.querySelector('.chart-section h3');
-        if (chartTitle) {
-            const daysCount = this.historyData.length;
-            chartTitle.textContent = `📈 Rate History (${daysCount} day${daysCount === 1 ? '' : 's'})`;
-        }
-
-        // Prepare data for chart
-        const labels = this.historyData.map(item => {
-            const date = new Date(item.date);
-            return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
-        });
-        
-        const rates = this.historyData.map(item => item.usdt_per_star);
-
-        this.chart = new Chart(ctx, {
-            type: 'line',
-            data: {
-                labels: labels,
-                datasets: [{
-                    label: 'Stars → USDT Rate',
-                    data: rates,
-                    borderColor: '#059669',
-                    backgroundColor: 'rgba(5, 150, 105, 0.1)',
-                    borderWidth: 2,
-                    fill: true,
-                    tension: 0.4,
-                    pointBackgroundColor: '#059669',
-                    pointBorderColor: '#ffffff',
-                    pointBorderWidth: 2,
-                    pointRadius: 4,
-                    pointHoverRadius: 6
-                }]
-            },
-            options: {
-                responsive: true,
-                maintainAspectRatio: false,
-                plugins: {
-                    legend: {
-                        display: false
-                    },
-                    tooltip: {
-                        mode: 'index',
-                        intersect: false,
-                        callbacks: {
-                            label: (context) => {
-                                const value = context.parsed.y;
-                                return `$${value.toFixed(6)} USDT per Star`;
-                            }
-                        }
-                    }
-                },
-                scales: {
-                    x: {
-                        display: true,
-                        grid: {
-                            color: '#e2e8f0',
-                            drawBorder: false
-                        },
-                        ticks: {
-                            color: '#64748b',
-                            maxTicksLimit: 8
-                        }
-                    },
-                    y: {
-                        display: true,
-                        grid: {
-                            color: '#e2e8f0',
-                            drawBorder: false
-                        },
-                        ticks: {
-                            color: '#64748b',
-                            callback: (value) => `$${value.toFixed(4)}`
-                        }
-                    }
-                },
-                interaction: {
-                    mode: 'nearest',
-                    axis: 'x',
-                    intersect: false
-                }
-            }
-        });
-    }
 }
 
 // Initialize when DOM is loaded

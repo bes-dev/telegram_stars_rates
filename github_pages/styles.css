@@ -285,34 +285,6 @@ footer p {
     margin-bottom: 10px;
 }
 
-.chart-section {
-    background: white;
-    border: 1px solid #e2e8f0;
-    border-radius: 12px;
-    padding: 32px;
-    margin-bottom: 32px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-}
-
-.chart-section h3 {
-    color: #0f172a;
-    margin-bottom: 24px;
-    text-align: left;
-    font-size: 1.25rem;
-    font-weight: 700;
-}
-
-.chart-container {
-    position: relative;
-    height: 400px;
-    margin-bottom: 16px;
-}
-
-.chart-info {
-    text-align: center;
-    color: #64748b;
-    font-size: 0.875rem;
-}
 
 .error-message {
     color: #dc2626;
@@ -386,15 +358,11 @@ footer p {
     .rate-display,
     .converter,
     .stats,
-    .fees-info,
-    .chart-section {
+    .fees-info {
         padding: 20px;
         margin-bottom: 20px;
     }
     
-    .chart-container {
-        height: 300px;
-    }
     
     .converter-section input {
         padding: 12px;
