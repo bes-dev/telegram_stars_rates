@@ -103,6 +103,38 @@ class StarsConverter {
 
 }
 
+// Copy to clipboard function for API examples
+function copyToClipboard(text) {
+    navigator.clipboard.writeText(text).then(() => {
+        // Show temporary feedback
+        const button = event.target;
+        const originalText = button.textContent;
+        button.textContent = '✅';
+        setTimeout(() => {
+            button.textContent = originalText;
+        }, 2000);
+    }).catch(err => {
+        console.error('Failed to copy text: ', err);
+        // Fallback for older browsers
+        const textArea = document.createElement('textarea');
+        textArea.value = text;
+        document.body.appendChild(textArea);
+        textArea.select();
+        try {
+            document.execCommand('copy');
+            const button = event.target;
+            const originalText = button.textContent;
+            button.textContent = '✅';
+            setTimeout(() => {
+                button.textContent = originalText;
+            }, 2000);
+        } catch (err) {
+            console.error('Fallback copy failed: ', err);
+        }
+        document.body.removeChild(textArea);
+    });
+}
+
 // Initialize when DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
     new StarsConverter();

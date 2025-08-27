@@ -100,6 +100,108 @@
             </p>
         </div>
 
+        <div class="api-info">
+            <h3>🔧 Developer Integration</h3>
+            <p>Integrate real-time exchange rates into your applications using our public API endpoints:</p>
+            
+            <div class="api-endpoints">
+                <div class="api-endpoint">
+                    <h4>Simple API (Recommended)</h4>
+                    <div class="api-url">
+                        <code>https://bes-dev.github.io/telegram_stars_rates/api.json</code>
+                        <button onclick="copyToClipboard('https://bes-dev.github.io/telegram_stars_rates/api.json')" class="copy-btn">📋</button>
+                    </div>
+                    <p class="api-description">Clean JSON response with current rates and metadata.</p>
+                </div>
+                
+                <div class="api-endpoint">
+                    <h4>Detailed API</h4>
+                    <div class="api-url">
+                        <code>https://bes-dev.github.io/telegram_stars_rates/rates.json</code>
+                        <button onclick="copyToClipboard('https://bes-dev.github.io/telegram_stars_rates/rates.json')" class="copy-btn">📋</button>
+                    </div>
+                    <p class="api-description">Full response including transaction data and statistics.</p>
+                </div>
+            </div>
+
+            <div class="code-examples">
+                <h4>Usage Examples</h4>
+                
+                <div class="code-example">
+                    <h5>JavaScript / Node.js</h5>
+                    <pre><code>// Fetch current exchange rate
+const response = await fetch('https://bes-dev.github.io/telegram_stars_rates/api.json');
+const data = await response.json();
+
+console.log(`1 Star = $${data.usdt_per_star} USDT`);
+console.log(`1000 Stars = $${(data.usdt_per_star * 1000).toFixed(2)} USDT`);</code></pre>
+                    <button onclick="copyToClipboard(`// Fetch current exchange rate
+const response = await fetch('https://bes-dev.github.io/telegram_stars_rates/api.json');
+const data = await response.json();
+
+console.log(\`1 Star = $\${data.usdt_per_star} USDT\`);
+console.log(\`1000 Stars = $\${(data.usdt_per_star * 1000).toFixed(2)} USDT\`);`)" class="copy-btn">📋</button>
+                </div>
+
+                <div class="code-example">
+                    <h5>Python</h5>
+                    <pre><code>import requests
+
+# Get current exchange rate
+response = requests.get('https://bes-dev.github.io/telegram_stars_rates/api.json')
+data = response.json()
+
+print(f"1 Star = ${data['usdt_per_star']:.6f} USDT")
+print(f"1000 Stars = ${data['usdt_per_star'] * 1000:.2f} USDT")</code></pre>
+                    <button onclick="copyToClipboard(`import requests
+
+# Get current exchange rate
+response = requests.get('https://bes-dev.github.io/telegram_stars_rates/api.json')
+data = response.json()
+
+print(f"1 Star = ${data['usdt_per_star']:.6f} USDT")
+print(f"1000 Stars = ${data['usdt_per_star'] * 1000:.2f} USDT")`)" class="copy-btn">📋</button>
+                </div>
+
+                <div class="code-example">
+                    <h5>curl</h5>
+                    <pre><code>curl -s https://bes-dev.github.io/telegram_stars_rates/api.json | jq '.'</code></pre>
+                    <button onclick="copyToClipboard(`curl -s https://bes-dev.github.io/telegram_stars_rates/api.json | jq '.'`)" class="copy-btn">📋</button>
+                </div>
+            </div>
+
+            <div class="api-response">
+                <h4>API Response Format</h4>
+                <pre><code>{
+  "usdt_per_star": 0.015015,
+  "ton_per_star": 0.004354,
+  "usdt_per_ton": 3.449,
+  "timestamp": "2025-08-13T12:59:34Z",
+  "transactions_analyzed": 100,
+  "source": "fragment_blockchain_analysis"
+}</code></pre>
+                <button onclick="copyToClipboard(`{
+  "usdt_per_star": 0.015015,
+  "ton_per_star": 0.004354,
+  "usdt_per_ton": 3.449,
+  "timestamp": "2025-08-13T12:59:34Z",
+  "transactions_analyzed": 100,
+  "source": "fragment_blockchain_analysis"
+}`)" class="copy-btn">📋</button>
+            </div>
+
+            <div class="api-notes">
+                <h4>Integration Notes</h4>
+                <ul>
+                    <li><strong>Update Frequency:</strong> Rates are updated daily via GitHub Actions</li>
+                    <li><strong>CORS:</strong> Enabled for all origins - safe for browser usage</li>
+                    <li><strong>Rate Limits:</strong> No rate limits on public endpoints</li>
+                    <li><strong>Caching:</strong> Consider caching responses for 1-24 hours</li>
+                    <li><strong>Error Handling:</strong> Always check HTTP status and handle network errors</li>
+                </ul>
+            </div>
+        </div>
+
 
         <footer>
             <p>Data from Fragment blockchain transactions • Updated daily via GitHub Actions</p>
